@@ -1,0 +1,34 @@
+name: Zero-Cost Business Autonomous Loop
+on:
+  schedule:
+    - cron: '0 */2 * * *'  # Every 2 hours
+  workflow_dispatch:       # Allow manual trigger
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python environment
+        run: |
+          pip install requests
+      - name: Run agent.py
+        run: python3 agent.py
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        continue-on-error: true
+
+      - name: Git Commit & Push If Changed
+        run: |
+          git config --local user.email "autonomous@ai"
+          git config --local user.name "Zero-Cost AI Agent"
+          git add memory/ prompts/ agent.py
+          git diff --cached --quiet && echo "No changes to commit" && exit 0
+          git commit -m "Autonomous run: $(date +'%Y-%m-%d %H:%M:%S')"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+        continue-on-error: true
+
