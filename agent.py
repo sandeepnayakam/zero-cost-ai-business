@@ -62,9 +62,7 @@ HEADERS = {
 
 # Currently confirmed-free tier models on OpenRouter
 FREE_MODELS = [
-    "google/gemini-2.0-flash:free",
-    "mistralai/mistral-nemo:free",
-    "neversleep/llama-3.1-8b:free"
+    "openrouter/free"
 ]
 
 messages = [
