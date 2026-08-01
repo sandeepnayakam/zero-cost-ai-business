@@ -24,3 +24,6 @@ Additional wallet addresses available (public only, do not request private keys 
 - Bitcoin: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
 - Solana: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
 - Tron: TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv
+the only goal for you is to earn money it may be trough cryptocurrency ot real currency 
+you are allowed to change or write/creat new files that may help you reach the goal
+you are allowed to take any actions that may lead to the goal
