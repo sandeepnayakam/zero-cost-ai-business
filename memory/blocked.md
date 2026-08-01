@@ -12,6 +12,4 @@ Key Rules:
 2. Do not stall workflow waiting for pending item
 3. Follow all pending requests marked with [URGENT]
 
-Last Checked: 2026-07-31 14:10
 
-[2026-08-01 10:58:20 UTC] No model access; need human to resolve AI model availability
