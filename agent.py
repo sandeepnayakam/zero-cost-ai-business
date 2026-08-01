@@ -2,9 +2,7 @@
 """
 Zero-Cost AI Business Agent
 Runs once per scheduled cycle. Reads memory + prompt, calls a free
-OpenRouter model, and executes ONLY a small allowlisted set of real
-actions (write a file under docs/, or make a read-only GET request).
-Everything else is reasoning + logging + action
+OpenRouter model, and executes set of real actions. Everything else is reasoning + logging + action
 """
 
 import os
