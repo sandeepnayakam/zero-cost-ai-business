@@ -14,26 +14,26 @@
     "consecutive_errors": 1,
     "date": "2026-08-10",
     "last_error": "google_gemini/gemini-2.0-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota e",
-    "last_error_at": "2026-08-10T16:31:33.451423+00:00",
-    "last_used": "2026-08-10T16:31:33.208698+00:00",
+    "last_error_at": "2026-08-10T17:36:21.240639+00:00",
+    "last_used": "2026-08-10T17:36:21.075984+00:00",
     "minute_bucket": {
-      "2026-08-10T16:31": 1
+      "2026-08-10T17:36": 1
     },
-    "requests_today": 7,
-    "total_calls": 7,
-    "total_errors": 7
+    "requests_today": 8,
+    "total_calls": 8,
+    "total_errors": 8
   },
   "openrouter": {
     "consecutive_errors": 0,
     "date": "2026-08-10",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
     "last_error_at": "2026-08-10T15:38:41.796097+00:00",
-    "last_used": "2026-08-10T16:31:33.452404+00:00",
+    "last_used": "2026-08-10T17:36:21.241724+00:00",
     "minute_bucket": {
-      "2026-08-10T16:31": 1
+      "2026-08-10T17:36": 1
     },
-    "requests_today": 7,
-    "total_calls": 7,
+    "requests_today": 8,
+    "total_calls": 8,
     "total_errors": 1
   }
 }
