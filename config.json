@@ -1,0 +1,55 @@
+{
+  "max_actions_per_run": 3,
+  "max_actions_per_day": 60,
+  "max_paid_spend_per_day_usd": 0.50,
+  "sandbox_paths": [
+    "docs/",
+    "site/",
+    "memory/",
+    "prompts/",
+    "scripts/"
+  ],
+  "subprocess_allowlist": [
+    "pip install",
+    "python3 ",
+    "python ",
+    "node ",
+    "npm ",
+    "git ",
+    "gh ",
+    "ls ",
+    "cat ",
+    "echo ",
+    "mkdir ",
+    "curl ",
+    "wget "
+  ],
+  "allowed_auth_headers": [
+    "X-API-Key"
+  ],
+  "llm": {
+    "max_tokens": 3000,
+    "temperature": 0.7,
+    "timeout_seconds": 45
+  },
+  "providers_priority": {
+    "groq": 1,
+    "google_gemini": 2,
+    "openrouter": 3,
+    "cerebras": 4,
+    "together": 5,
+    "openai": 99
+  },
+  "providers_enabled": {
+    "groq": true,
+    "google_gemini": true,
+    "openrouter": true,
+    "cerebras": false,
+    "together": false,
+    "openai": false
+  },
+  "log_max_chars": {
+    "reasoning_in_state": 1500,
+    "action_summary": 300
+  }
+}
