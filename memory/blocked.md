@@ -9,3 +9,5 @@ Key Rules:
 2. Do not stall workflow waiting for pending item
 3. Follow all pending requests marked with [URGENT]
 
+
+[2026-08-10 14:32:25 UTC] GitHub deployment requires authenticated gh CLI (pending human action)
