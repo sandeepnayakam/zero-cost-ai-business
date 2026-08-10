@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-08-10",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-08-10T20:24:24.891403+00:00",
-    "last_used": "2026-08-10T20:24:24.814560+00:00",
-    "minute_bucket": {},
-    "requests_today": 4,
-    "total_calls": 4,
-    "total_errors": 4
+    "last_error_at": "2026-08-10T23:21:21.595984+00:00",
+    "last_used": "2026-08-10T23:21:21.447559+00:00",
+    "minute_bucket": {
+      "2026-08-10T23:21": 2
+    },
+    "requests_today": 6,
+    "total_calls": 6,
+    "total_errors": 6
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-08-10",
     "last_error": "google_gemini/gemini-2.0-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota e",
-    "last_error_at": "2026-08-10T22:44:00.856574+00:00",
-    "last_used": "2026-08-10T22:44:00.702580+00:00",
+    "last_error_at": "2026-08-10T23:19:54.004275+00:00",
+    "last_used": "2026-08-10T23:19:53.783230+00:00",
     "minute_bucket": {
-      "2026-08-10T22:44": 1
+      "2026-08-10T23:19": 1
     },
-    "requests_today": 14,
-    "total_calls": 14,
-    "total_errors": 14
+    "requests_today": 15,
+    "total_calls": 15,
+    "total_errors": 15
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-08-10",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-08-10T20:24:24.718610+00:00",
-    "last_used": "2026-08-10T22:44:00.857584+00:00",
+    "last_error_at": "2026-08-10T23:21:21.272560+00:00",
+    "last_used": "2026-08-10T23:19:54.005259+00:00",
     "minute_bucket": {
-      "2026-08-10T22:44": 1
+      "2026-08-10T23:19": 1
     },
-    "requests_today": 14,
-    "total_calls": 14,
-    "total_errors": 2
+    "requests_today": 15,
+    "total_calls": 15,
+    "total_errors": 3
   }
 }
