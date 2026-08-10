@@ -265,7 +265,28 @@ print(f"[+] LLM responded via {used_provider}/{used_model}")
 # Parse JSON response (tolerant of markdown fences)
 # ----------------------------------------------------------------------------
 parsed = None
-cleaned = response_content.strip()
+# Defensive: if the router somehow returned None (shouldn't happen after the
+# router fix, but be safe), treat as reasoning-only and log a blocker.
+if response_content is None:
+    append_file(
+        "memory/blocked.md",
+        f"\n[{TIMESTAMP}] LLM returned None content via {used_provider}/{used_model}. "
+        f"Treating as no-op.\n",
+    )
+    cap_blocked_log("memory/blocked.md")
+    response_content = ""
+
+cleaned = (response_content or "").strip()
+if not cleaned:
+    # Empty response: log and exit gracefully
+    append_file(
+        "memory/blocked.md",
+        f"\n[{TIMESTAMP}] LLM returned empty content via {used_provider}/{used_model}.\n",
+    )
+    cap_blocked_log("memory/blocked.md")
+    print(f"[-] LLM returned empty content via {used_provider}/{used_model}")
+    sys.exit(1)
+
 if cleaned.startswith("```"):
     # strip opening fence (``` or ```json)
     cleaned = cleaned.split("\n", 1)[1] if "\n" in cleaned else cleaned.lstrip("`")
