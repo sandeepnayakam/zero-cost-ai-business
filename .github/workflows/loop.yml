@@ -1,36 +1,73 @@
-name: Zero-Cost Business Autonomous Loop
+name: Zero-Cost Business Autonomous Loop v2
+
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Every 2 hours
+    # Every 15 minutes — multiple providers give us enough quota to sustain this
+    - cron: '*/15 * * * *'
   workflow_dispatch:       # Allow manual trigger
+    inputs:
+      debug:
+        description: 'Run with extra debug logging'
+        required: false
+        default: 'false'
+
+# Prevent overlapping runs of the same branch
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   run-agent:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+      issues: write
+      pull-requests: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: false
+          fetch-depth: 0
 
       - name: Set up Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
         run: |
-          pip install requests
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Configure git identity
+        run: |
+          git config --local user.email "autonomous@ai"
+          git config --local user.name "Zero-Cost AI Agent v2"
+
       - name: Run agent.py
         run: python3 agent.py
         env:
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          # Pass every supported LLM provider key — agent uses whichever are set
+          OPENROUTER_API_KEY:  ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY:        ${{ secrets.GROQ_API_KEY }}
+          GOOGLE_AI_API_KEY:   ${{ secrets.GOOGLE_AI_API_KEY }}
+          OPENAI_API_KEY:      ${{ secrets.OPENAI_API_KEY }}
+          CEREBRAS_API_KEY:    ${{ secrets.CEREBRAS_API_KEY }}
+          TOGETHER_API_KEY:    ${{ secrets.TOGETHER_API_KEY }}
+          # GitHub CLI token for gh issue / gh pr operations
+          GH_TOKEN:            ${{ secrets.GH_PAT }}
+          # Repo metadata for gh CLI
+          GITHUB_REPOSITORY:   ${{ github.repository }}
         continue-on-error: true
 
       - name: Git Commit & Push If Changed
         run: |
-          git config --local user.email "autonomous@ai"
-          git config --local user.name "Zero-Cost AI Agent"
-          git add memory/ prompts/ agent.py
+          git add memory/ prompts/ docs/ site/ scripts/ config.json agent.py actions.py llm_router.py requirements.txt
           git diff --cached --quiet && echo "No changes to commit" && exit 0
-          git commit -m "Autonomous run: $(date +'%Y-%m-%d %H:%M:%S')"
+          git commit -m "Autonomous run: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
         continue-on-error: true
-
