@@ -5,9 +5,7 @@
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
     "last_error_at": "2026-08-10T20:24:24.891403+00:00",
     "last_used": "2026-08-10T20:24:24.814560+00:00",
-    "minute_bucket": {
-      "2026-08-10T20:24": 2
-    },
+    "minute_bucket": {},
     "requests_today": 4,
     "total_calls": 4,
     "total_errors": 4
@@ -16,26 +14,26 @@
     "consecutive_errors": 1,
     "date": "2026-08-10",
     "last_error": "google_gemini/gemini-2.0-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota e",
-    "last_error_at": "2026-08-10T20:23:30.239037+00:00",
-    "last_used": "2026-08-10T20:23:30.052218+00:00",
+    "last_error_at": "2026-08-10T21:11:35.970399+00:00",
+    "last_used": "2026-08-10T21:11:35.756152+00:00",
     "minute_bucket": {
-      "2026-08-10T20:23": 1
+      "2026-08-10T21:11": 1
     },
-    "requests_today": 11,
-    "total_calls": 11,
-    "total_errors": 11
+    "requests_today": 12,
+    "total_calls": 12,
+    "total_errors": 12
   },
   "openrouter": {
-    "consecutive_errors": 1,
+    "consecutive_errors": 0,
     "date": "2026-08-10",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
     "last_error_at": "2026-08-10T20:24:24.718610+00:00",
-    "last_used": "2026-08-10T20:23:30.240034+00:00",
+    "last_used": "2026-08-10T21:11:35.970893+00:00",
     "minute_bucket": {
-      "2026-08-10T20:23": 1
+      "2026-08-10T21:11": 1
     },
-    "requests_today": 11,
-    "total_calls": 11,
+    "requests_today": 12,
+    "total_calls": 12,
     "total_errors": 2
   }
 }
