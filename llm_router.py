@@ -252,7 +252,30 @@ def _call_provider(provider_name, provider_def, api_key, messages, model=None,
     data = resp.json()
     if not (data.get("choices") and len(data["choices"]) > 0):
         raise ValueError(f"empty choices from {provider_name}")
-    content = data["choices"][0]["message"]["content"]
+    msg = data["choices"][0].get("message") or {}
+    content = msg.get("content")
+    # Some providers return content=null when the response is filtered or
+    # the model is overloaded. Also handle reasoning_content (used by some
+    # OpenRouter deepseek/qwen models that put output in a separate field).
+    if content is None:
+        content = msg.get("reasoning_content") or ""
+    if not isinstance(content, str):
+        # Some providers return a list of content blocks (OpenAI-style);
+        # concatenate any text blocks.
+        if isinstance(content, list):
+            parts = []
+            for block in content:
+                if isinstance(block, dict) and block.get("type") == "text":
+                    parts.append(block.get("text", ""))
+                elif isinstance(block, str):
+                    parts.append(block)
+            content = "\n".join(parts)
+        else:
+            content = str(content) if content is not None else ""
+    content = content.strip()
+    if not content:
+        used = model or provider_def["default_model"]
+        raise ValueError(f"empty/null content from {provider_name}/{used}")
     return content, (model or provider_def["default_model"])
 
 
