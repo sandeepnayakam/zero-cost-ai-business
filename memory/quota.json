@@ -1,0 +1,39 @@
+{
+  "cerebras": {
+    "consecutive_errors": 0,
+    "date": "2026-08-10",
+    "last_error": null,
+    "last_error_at": null,
+    "last_used": null,
+    "minute_bucket": {},
+    "requests_today": 0,
+    "total_calls": 0,
+    "total_errors": 0
+  },
+  "google_gemini": {
+    "consecutive_errors": 1,
+    "date": "2026-08-10",
+    "last_error": "google_gemini/gemini-2.0-flash: 429 Client Error: Too Many Requests for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\n* Quota e",
+    "last_error_at": "2026-08-10T11:09:04.607042+00:00",
+    "last_used": "2026-08-10T11:09:04.422473+00:00",
+    "minute_bucket": {
+      "2026-08-10T11:09": 1
+    },
+    "requests_today": 1,
+    "total_calls": 1,
+    "total_errors": 1
+  },
+  "openrouter": {
+    "consecutive_errors": 0,
+    "date": "2026-08-10",
+    "last_error": null,
+    "last_error_at": null,
+    "last_used": "2026-08-10T11:09:04.608158+00:00",
+    "minute_bucket": {
+      "2026-08-10T11:09": 1
+    },
+    "requests_today": 1,
+    "total_calls": 1,
+    "total_errors": 0
+  }
+}
