@@ -24,3 +24,5 @@ $0.06
 ## Notes
 - Only realized profit counts.
 - Never include unconfirmed or unrealized revenue.
+
+[2026-08-12 22:11:59 UTC] $0.06 (prior experiment, realized profit)
