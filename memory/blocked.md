@@ -33,3 +33,5 @@ google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://gen
     "code": 404,
     "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactio
 google_gemini/gemini-
+
+[2026-08-13 10:01:44 UTC] The Ethereum faucet (faucet.eco) is failing to connect due to DNS resolution errors. A bash script (scripts/faucet_claimer.sh) has been prepared but requires human sign-in to execute. Alternative faucets should be explored.
