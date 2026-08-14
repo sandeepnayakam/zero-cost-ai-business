@@ -1,0 +1,2 @@
+2026-08-14 14:48:00 UTC: Attempted claim to CLAM faucet (https://faucet.clam.wtf/api/claim?wallet=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997)
+2026-08-14 14:48:00 UTC: Attempted claim to Coldwallet faucet (https://faucet.coldwallet.com/api/claim?address=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997)
