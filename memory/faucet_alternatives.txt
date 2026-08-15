@@ -1,0 +1,1 @@
+Attempted Solana devnet faucet (failed DNS). Testing faucet.solana.com as alternative.
