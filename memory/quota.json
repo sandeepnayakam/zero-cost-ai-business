@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-08-15",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-08-15T20:29:00.602554+00:00",
-    "last_used": "2026-08-15T20:29:00.473213+00:00",
-    "minute_bucket": {},
-    "requests_today": 16,
-    "total_calls": 34,
-    "total_errors": 34
+    "last_error_at": "2026-08-15T21:20:43.030100+00:00",
+    "last_used": "2026-08-15T21:20:42.888203+00:00",
+    "minute_bucket": {
+      "2026-08-15T21:20": 2
+    },
+    "requests_today": 18,
+    "total_calls": 36,
+    "total_errors": 36
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-08-15",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-08-15T20:50:04.976850+00:00",
-    "last_used": "2026-08-15T20:50:04.865335+00:00",
+    "last_error_at": "2026-08-15T21:18:06.724736+00:00",
+    "last_used": "2026-08-15T21:18:06.548414+00:00",
     "minute_bucket": {
-      "2026-08-15T20:50": 3
+      "2026-08-15T21:18": 3
     },
-    "requests_today": 117,
-    "total_calls": 386,
-    "total_errors": 386
+    "requests_today": 120,
+    "total_calls": 389,
+    "total_errors": 389
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-08-15",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-08-15T20:29:00.121395+00:00",
-    "last_used": "2026-08-15T20:50:04.977531+00:00",
+    "last_error_at": "2026-08-15T21:20:42.672098+00:00",
+    "last_used": "2026-08-15T21:18:06.725795+00:00",
     "minute_bucket": {
-      "2026-08-15T20:50": 1
+      "2026-08-15T21:18": 1
     },
-    "requests_today": 39,
-    "total_calls": 140,
-    "total_errors": 17
+    "requests_today": 40,
+    "total_calls": 141,
+    "total_errors": 18
   }
 }

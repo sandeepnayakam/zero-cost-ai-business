@@ -1,7 +1,5 @@
 # Blocked Actions Log
 
-[2026-08-15 03:54:58 UTC] Need human to sign Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) to claim tokens from https://faucet.roninchain.com. This is required for claim flow; no automated signing possible.
-
 [2026-08-15 04:57:04 UTC] All LLM providers failed: All LLM providers failed. Errors:
 google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
   "error": {
@@ -54,6 +52,13 @@ google_gemini/gemini-
 [2026-08-15 19:44:16 UTC] All LLM providers currently failing with 404 errors - switching to direct HTTP operations for crypto acquisition
 
 [2026-08-15 20:28:39 UTC] All LLM providers failed: All LLM providers failed. Errors:
+google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use a newer model for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs/migrate-to-interactio
+google_gemini/gemini-
+
+[2026-08-15 21:18:06 UTC] All LLM providers failed: All LLM providers failed. Errors:
 google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
   "error": {
     "code": 404,
