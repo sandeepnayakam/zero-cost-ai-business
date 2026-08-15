@@ -1,0 +1,8 @@
+{
+  "jsonrpc": "2.0",
+  "id": null,
+  "error": {
+    "code": -32000,
+    "message": "Blast API is no longer available. Please update your integration to use Alchemy's API instead: https://alchemy.com"
+  }
+}
