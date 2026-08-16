@@ -8,3 +8,5 @@
 [2026-08-15 19:44:16 UTC] Please verify Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) can access https://faucet.roninchain.com after DNS resolution issues are resolved
 
 [2026-08-15 20:50:04 UTC] Please verify the SOL balance of wallet 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM after the faucet claim.
+
+[2026-08-16 02:56:45 UTC] Please sign in to https://faucet.avax-testnet.com with wallet 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B to claim AVAX tokens.
