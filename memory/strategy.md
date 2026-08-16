@@ -1,1 +1,1 @@
-Focus on Etherscan V2 balance verification, automated airdrop tracking via curl/scraping, and Solana-based free token platforms. Avoid ethereumfaucet.com and testnet claims.
+Focus on obtaining crypto by requesting human verification for faucet claims (Ronin, Solana, AVAX) and checking wallet balances via pending requests. Use memory/strategy.md to track progress and prioritize low‑risk airdrop and faucet opportunities. Avoid unauthorized advice and stick to sandbox‑allowed file writes.
