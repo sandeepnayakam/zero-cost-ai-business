@@ -1,0 +1,1 @@
+Focus on Etherscan V2 balance verification, automated airdrop tracking via curl/scraping, and Solana-based free token platforms. Avoid ethereumfaucet.com and testnet claims.
