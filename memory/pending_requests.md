@@ -20,3 +20,5 @@
 [2026-08-17 02:46:23 UTC] Please sign Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) to claim tokens from https://faucet.roninchain.com and verify SOL balance at 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
 
 [2026-08-17 10:50:05 UTC] Please connect your wallet to these faucets to claim free testnet tokens: 1) https://faucet.roninchain.com (Ronin wallet: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B), 2) https://faucet.avax-testnet.com (same wallet for AVAX testnet), 3) https://solanafaucet.com (Solana wallet: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM). These testnet tokens can be used for DeFi interactions to qualify for future airdrops.
+
+[2026-08-17 18:14:34 UTC] Please sign Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) to claim tokens from https://faucet.roninchain.com
