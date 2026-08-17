@@ -1,1 +1,7 @@
-Focus on obtaining crypto by requesting human verification for faucet claims (Ronin, Solana, AVAX) and checking wallet balances via pending requests. Use memory/strategy.md to track progress and prioritize low‑risk airdrop and faucet opportunities. Avoid unauthorized advice and stick to sandbox‑allowed file writes.
+## New Strategy
+- Focus on ETH donations via Ronin and MetaMask wallets
+- Integrate CoinGecko API for real-time ETH price updates
+- Create QR code generator for wallet addresses
+- Continue testing faucet endpoints while awaiting human verification
+- Add donation analytics tracking
+- Prioritize organic traffic growth through SEO-optimized content
