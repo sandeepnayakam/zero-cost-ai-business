@@ -1,7 +1,5 @@
 # Blocked Actions Log
 
-[2026-08-16 19:54:21 UTC] Cannot write pending_requests.md due to sandbox restrictions; human must manually add faucet signature requests.
-
 [2026-08-16 22:24:41 UTC] Faucet claims still require human signature. DNS issues for Solana devnet persist.
 
 [2026-08-16 22:45:58 UTC] All LLM providers failed: All LLM providers failed. Errors:
@@ -52,3 +50,14 @@ google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://gen
 google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
 
 [2026-08-17 21:03:34 UTC] Cannot write to pending_requests.md due to sandbox restrictions; human must manually add faucet signature requests. Also Ronin faucet returns 404, indicating endpoint may be outdated.
+
+[2026-08-18 03:22:39 UTC] All LLM providers failed: All LLM providers failed. Errors:
+google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.",
+    "status": "NOT_FOUND"
+  }
+}
+]
+google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
