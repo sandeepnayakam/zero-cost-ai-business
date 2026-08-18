@@ -24,3 +24,5 @@
 [2026-08-17 18:14:34 UTC] Please sign Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) to claim tokens from https://faucet.roninchain.com
 
 [2026-08-18 07:24:25 UTC] Human must resolve DNS for devnet.solana.com and provide updated credentials to GitHub for pushes. Also verify if https://faucet.roninchain.com requires updated wallet signing.
+
+[2026-08-18 10:00:07 UTC] Human to sign Ronin wallet on https://faucet.roninchain.com to claim tokens
