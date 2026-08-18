@@ -5,9 +5,7 @@
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
     "last_error_at": "2026-08-18T06:38:01.838941+00:00",
     "last_used": "2026-08-18T06:38:01.685338+00:00",
-    "minute_bucket": {
-      "2026-08-18T06:38": 2
-    },
+    "minute_bucket": {},
     "requests_today": 6,
     "total_calls": 68,
     "total_errors": 68
@@ -16,26 +14,26 @@
     "consecutive_errors": 1,
     "date": "2026-08-18",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-08-18T06:37:54.104243+00:00",
-    "last_used": "2026-08-18T06:37:53.979588+00:00",
+    "last_error_at": "2026-08-18T07:24:26.268942+00:00",
+    "last_used": "2026-08-18T07:24:26.088712+00:00",
     "minute_bucket": {
-      "2026-08-18T06:37": 3
+      "2026-08-18T07:24": 3
     },
-    "requests_today": 24,
-    "total_calls": 674,
-    "total_errors": 674
+    "requests_today": 27,
+    "total_calls": 677,
+    "total_errors": 677
   },
   "openrouter": {
-    "consecutive_errors": 1,
+    "consecutive_errors": 0,
     "date": "2026-08-18",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
     "last_error_at": "2026-08-18T06:38:01.269970+00:00",
-    "last_used": "2026-08-18T06:37:54.105229+00:00",
+    "last_used": "2026-08-18T07:24:26.270062+00:00",
     "minute_bucket": {
-      "2026-08-18T06:37": 1
+      "2026-08-18T07:24": 1
     },
-    "requests_today": 8,
-    "total_calls": 236,
+    "requests_today": 9,
+    "total_calls": 237,
     "total_errors": 34
   }
 }
