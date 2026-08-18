@@ -28,3 +28,5 @@
 [2026-08-18 10:00:07 UTC] Human to sign Ronin wallet on https://faucet.roninchain.com to claim tokens
 
 [2026-08-18 10:38:10 UTC] Please sign into Polygon faucet https://faucet.polygon.technology with MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim MATIC tokens.
+
+[2026-08-18 11:02:29 UTC] Please sign Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) on https://faucet.roninchain.com to claim tokens and verify SOL balance. Also sign AVAX testnet faucet (https://faucet.avax-testnet.com) with the same wallet.
