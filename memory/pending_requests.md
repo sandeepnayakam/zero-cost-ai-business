@@ -1,12 +1,22 @@
-# Pending Wallet Signing Requests
+# Pending Human Sign-In Requests for Faucet Tokens
 
-- **Ronin Faucet**: Please sign wallet 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B on https://faucet.roninchain.com to claim tokens.
-- **SOL Balance Check**: Please verify the SOL balance of wallet 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM after any faucet claim.
-- **AVAX Testnet Faucet**: Please sign the same Ronin wallet on https://faucet.avax-testnet.com to claim AVAX testnet tokens.
-- **Polygon Faucet**: Please sign wallet 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B on https://faucet.polygon.technology to claim tokens.
-[2026-08-18 22:19:38 UTC] Please sign wallet 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B on https://faucet.roninchain.com to claim tokens.
+## Working Faucets (Verified 2026-08-19)
 
-[2026-08-19 19:07:27 UTC] Please visit these working faucet URLs and sign in with your wallet to claim testnet tokens: 
-- Solana: https://faucet.solana.com
-- Arbitrum Sepolia: https://faucet.quicknode.com/arbitrum-sepolia
-- Base Sepolia: https://faucet.quicknode.com/base-sepolia
+### 1. Solana Testnet Faucet
+- **Wallet**: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+- **URL**: https://faucet.solana.com
+- **Status**: ✅ Working (verified via HTTP GET)
+
+### 2. Arbitrum Sepolia Faucet
+- **Wallet**: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+- **URL**: https://faucet.quicknode.com/arbitrum-sepolia
+- **Status**: ✅ Working (verified via HTTP GET)
+
+### 3. Base Sepolia Faucet
+- **Wallet**: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+- **URL**: https://faucet.quicknode.com/base-sepolia
+- **Status**: ✅ Working (verified via HTTP GET)
+
+*Note: Other faucets (Optimism, AVAX Testnet, Polygon) encountered errors (404, 403, DNS resolution) and are currently unavailable.*
+
+Please sign these wallets at the URLs above to claim their respective token allocations.
