@@ -7194,3 +7194,157 @@ Action results:
 Reasoning:
 I need to understand the current state of research and what's already been attempted before deciding on a strategy for real crypto profit. The prior agent got only $0.06 from faucets (testnet tokens with no real value). I need to explore existing research and find legitimate ways to earn real cryptocurrency. Let me first read the key files to understand what's been tried.
 ---
+
+### ACTION @ 2026-08-19 11:21:36 UTC: write_file
+Params: {"path": "docs/research_log.md", "content": "=== REAL CRYPTO EARNING STRATEGY ===\n\nPRIORITY 1: Learn-to-Earn Programs (Real Crypto)\n- Coinbase Earn: Watch videos, take quizzes, earn $1-50 per course in real crypto\n- CoinMarketCap Earn: Similar model, various tokens\n- Binance Academy: Learn & Earn campaigns\n- Revolut Learn: Crypto courses with rewards\n- Cake DeFi Learn: DeFi education rewards\n\nPRIORITY 2: Referral/Affiliate Programs\n- Coinbase: $10 BTC per referral (both parties)\n- Bin
+  [main]
+  before: 1 lines, 33 chars
+  after:  36 lines, 1373 chars
+  --- new content (first 36 lines) ---
+  | === REAL CRYPTO EARNING STRATEGY ===
+  | 
+  | PRIORITY 1: Learn-to-Earn Programs (Real Crypto)
+  | - Coinbase Earn: Watch videos, take quizzes, earn $1-50 per course in real crypto
+  | - CoinMarketCap Earn: Similar model, various tokens
+  | - Binance Academy: Learn & Earn campaigns
+  | - Revolut Learn: Crypto courses with rewards
+  | - Cake DeFi Learn: DeFi education rewards
+  | 
+  | PRIORITY 2: Referral/Affiliate Programs
+  | - Coinbase: $10 BTC per referral (both parties)
+  | - Binance: Up to 40% commission on trading fees
+  | - Kraken: $10 per referral
+  | - Crypto.com: $25 per referral
+  | - Ledger: 10% affiliate commission
+  | 
+  | PRIORITY 3: Airdrop Farming (Zero Cost)
+  | - LayerZero, zkSync, Linea, Scroll, Base - interact with testnets/mainnets
+  | - Use existing wallets (Ronin, MetaMask, Solana, Bitcoin, Tron)
+  | - Track via Galxe, Layer3, QuestN
+  | 
+  | PRIORITY 4: Bug Bounties / Security Audits
+  | - Immunefi, HackerOne - requires skills but high rewards
+  | 
+  | PRIORITY 5: Content/Community Rewards
+  | - Publish0x, Hive, LeoFinance - crypto for writing
+  | - Discord/Telegram community roles with token rewards
+  | 
+  | NEXT STEPS:
+  | 1. Research each learn-to-earn program eligibility
+  | 2. Create tracking spreadsheet for campaigns
+  | 3. Build simple referral landing page on GitHub Pages
+  | 4. Request human to sign up for Coinbase/CoinMarketCap via referral links
+  | 5. Automate airdrop task tracking
+  | 
+  | BLOCKED: Ethereumfaucet.com is a scam (domain upsell), avoid.
+Result: wrote 1373 chars to docs/research_log.md
+---
+
+### ACTION @ 2026-08-19 11:21:36 UTC: write_file
+Params: {"path": "docs/learn_to_earn_programs.md", "content": "# Learn-to-Earn Programs - Real Crypto Rewards\n\n## Coinbase Earn (Highest Priority)\n- **Rewards**: $1-50 per course in real crypto (BTC, ETH, USDC, etc.)\n- **Requirements**: KYC verified Coinbase account, eligible country\n- **Action Needed**: Human creates account via referral link\n- **Referral Bonus**: $10 BTC each when referral buys/sells $100+\n- **URL**: https://www.coinbase.com/earn\n\n## CoinMarketCap Earn\n- **Rewards**: Various
+  [main]
+  before: 0 lines, 0 chars
+  after:  37 lines, 1516 chars
+  --- new content (first 37 lines) ---
+  | # Learn-to-Earn Programs - Real Crypto Rewards
+  | 
+  | ## Coinbase Earn (Highest Priority)
+  | - **Rewards**: $1-50 per course in real crypto (BTC, ETH, USDC, etc.)
+  | - **Requirements**: KYC verified Coinbase account, eligible country
+  | - **Action Needed**: Human creates account via referral link
+  | - **Referral Bonus**: $10 BTC each when referral buys/sells $100+
+  | - **URL**: https://www.coinbase.com/earn
+  | 
+  | ## CoinMarketCap Earn
+  | - **Rewards**: Various tokens ($1-20 per campaign)
+  | - **Requirements**: CMC account, KYC on Binance/other exchange
+  | - **Action Needed**: Human signs up, completes quizzes
+  | - **URL**: https://coinmarketcap.com/earn/
+  | 
+  | ## Binance Academy Learn & Earn
+  | - **Rewards**: BUSD, BNB, various tokens
+  | - **Requirements**: Binance account with KYC
+  | - **Action Needed**: Human creates Binance account
+  | - **URL**: https://academy.binance.com/learn-and-earn
+  | 
+  | ## Revolut Crypto Learn
+  | - **Rewards**: DOT, XTZ, ALGO, etc. (~$1-10 each)
+  | - **Requirements**: Revolut account (EU/UK mainly)
+  | - **URL**: In-app only
+  | 
+  | ## Cake DeFi Learn
+  | - **Rewards**: DFI tokens
+  | - **Requirements**: Cake DeFi account
+  | - **URL**: https://cakedefi.com/learn
+  | 
+  | ## Tracking Template
+  | | Program | Status | Rewards Claimed | Referral Link | Next Campaign |
+  | |---------|--------|-----------------|---------------|---------------|
+  | | Coinbase Earn | Pending human signup | $0 | [NEED LINK] | Check weekly |
+  | | CoinMarketCap Earn | Pending human signup | $0 | [NEED LINK] | Check weekly |
+  | | Binance Academy | Pending human signup | $0 | [NEED LINK] | Check weekly |
+Result: wrote 1516 chars to docs/learn_to_earn_programs.md
+---
+
+### ACTION @ 2026-08-19 11:21:36 UTC: write_file
+Params: {"path": "scripts/check_learn_earn.py", "content": "#!/usr/bin/env python3\n\"\"\"\nCheck learn-to-earn program availability and track rewards.\nRun periodically to detect new campaigns.\n\"\"\"\nimport json\nimport requests\nfrom datetime import datetime\n\ndef check_coinbase_earn():\n    \"\"\"Check Coinbase Earn for available courses.\"\"\"\n    # Coinbase doesn't have public API for this\n    # Would need browser automation - placeholder for now\n    return {\n        \"program\": \"Coinbase
+  [main]
+  before: 0 lines, 0 chars
+  after:  55 lines, 1558 chars
+  --- new content (first 40 lines) ---
+  | #!/usr/bin/env python3
+  | """
+  | Check learn-to-earn program availability and track rewards.
+  | Run periodically to detect new campaigns.
+  | """
+  | import json
+  | import requests
+  | from datetime import datetime
+  | 
+  | def check_coinbase_earn():
+  |     """Check Coinbase Earn for available courses."""
+  |     # Coinbase doesn't have public API for this
+  |     # Would need browser automation - placeholder for now
+  |     return {
+  |         "program": "Coinbase Earn",
+  |         "status": "needs_human_signup",
+  |         "url": "https://www.coinbase.com/earn",
+  |         "estimated_value": "$10-100+",
+  |         "last_checked": datetime.utcnow().isoformat()
+  |     }
+  | 
+  | def check_cmc_earn():
+  |     """Check CoinMarketCap Earn campaigns."""
+  |     return {
+  |         "program": "CoinMarketCap Earn",
+  |         "status": "needs_human_signup",
+  |         "url": "https://coinmarketcap.com/earn/",
+  |         "estimated_value": "$5-50",
+  |         "last_checked": datetime.utcnow().isoformat()
+  |     }
+  | 
+  | def check_binance_learn():
+  |     """Check Binance Academy Learn & Earn."""
+  |     return {
+  |         "program": "Binance Learn & Earn",
+  |         "status": "needs_human_signup",
+  |         "url": "https://academy.binance.com/learn-and-earn",
+  |         "estimated_value": "$5-30",
+  |         "last_checked": datetime.utcnow().isoformat()
+  |     }
+  ... (15 more lines truncated)
+Result: wrote 1558 chars to scripts/check_learn_earn.py
+---
+## Run 2026-08-19 11:21:36 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 3/3 (daily total: 14/60)
+
+Action results:
+  - write_file: OK wrote 1373 chars to docs/research_log.md
+  - write_file: OK wrote 1516 chars to docs/learn_to_earn_programs.md
+  - write_file: OK wrote 1558 chars to scripts/check_learn_earn.py
+
+Reasoning:
+The human confirmed openrouter/free works and directed me to focus on REAL crypto earnings, not testnet faucets. They'll sign wallet transactions if I provide links in pending_requests.md. The prior $0.06 came from worthless testnet tokens. I need to pivot to legitimate learn-to-earn programs (Coinbase Earn, CoinMarketCap Earn, Binance Academy) and affiliate/referral programs that pay real crypto. First, let me examine existing scripts and research to understand what's already been built.
+---
