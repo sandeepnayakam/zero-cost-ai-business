@@ -1,16 +1,5 @@
 # Blocked Actions Log
 
-[2026-08-18 13:07:11 UTC] All LLM providers failed: All LLM providers failed. Errors:
-google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
-  "error": {
-    "code": 404,
-    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.",
-    "status": "NOT_FOUND"
-  }
-}
-]
-google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
-
 [2026-08-18 13:56:26 UTC] All LLM providers failed: All LLM providers failed. Errors:
 google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
   "error": {
@@ -82,6 +71,17 @@ google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://gen
 google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
 
 [2026-08-19 11:49:46 UTC] All LLM providers failed: All LLM providers failed. Errors:
+google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.",
+    "status": "NOT_FOUND"
+  }
+}
+]
+google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
+
+[2026-08-19 15:01:11 UTC] All LLM providers failed: All LLM providers failed. Errors:
 google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
   "error": {
     "code": 404,
