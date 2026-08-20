@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-08-20",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-08-19T22:34:22.347660+00:00",
-    "last_used": "2026-08-19T22:34:22.280123+00:00",
-    "minute_bucket": {},
-    "requests_today": 0,
-    "total_calls": 96,
-    "total_errors": 96
+    "last_error_at": "2026-08-20T02:38:27.579194+00:00",
+    "last_used": "2026-08-20T02:38:27.329236+00:00",
+    "minute_bucket": {
+      "2026-08-20T02:38": 2
+    },
+    "requests_today": 2,
+    "total_calls": 98,
+    "total_errors": 98
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-08-20",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-08-20T01:26:03.310812+00:00",
-    "last_used": "2026-08-20T01:26:03.178565+00:00",
+    "last_error_at": "2026-08-20T02:37:21.635506+00:00",
+    "last_used": "2026-08-20T02:37:21.519117+00:00",
     "minute_bucket": {
-      "2026-08-20T01:26": 3
+      "2026-08-20T02:37": 3
     },
-    "requests_today": 3,
-    "total_calls": 875,
-    "total_errors": 875
+    "requests_today": 6,
+    "total_calls": 878,
+    "total_errors": 878
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-08-20",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-08-19T22:34:22.194389+00:00",
-    "last_used": "2026-08-20T01:26:03.311951+00:00",
+    "last_error_at": "2026-08-20T02:38:27.159510+00:00",
+    "last_used": "2026-08-20T02:37:21.649431+00:00",
     "minute_bucket": {
-      "2026-08-20T01:26": 1
+      "2026-08-20T02:37": 1
     },
-    "requests_today": 1,
-    "total_calls": 303,
-    "total_errors": 48
+    "requests_today": 2,
+    "total_calls": 304,
+    "total_errors": 49
   }
 }
