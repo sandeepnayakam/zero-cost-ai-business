@@ -1,14 +1,13 @@
 ## Summary
-2026-08-20 08:18:12 UTC
+2026-08-20 09:04:52 UTC
 
-**Last Run:** 2026-08-20 08:18:12 UTC
+**Last Run:** 2026-08-20 09:04:52 UTC
 **Provider/Model:** openrouter / openrouter/free
-**Actions this cycle:** 2/3
-**Daily action count:** 13/60
+**Actions this cycle:** 2/2
+**Daily action count:** 15/60
 
 **Action results:**
-  - http_request: OK GET https://api.blockcypher.com/v1/eth/main/addr/0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997/balance -> 404, 121 bytes. Body: Endpoint not found. Please check your URL for typos and make sure you're using the correct  HTTP method (GET, POST, etc).
-  - write_file: OK wrote 46 char
+  - http_request: OK GET https://api.etherscan.io/api?module=account&action=balance&address=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997&tag=latest -> 200, 155 bytes. Body: {"status":"0","message":"NOTOK","result":"You are using a deprecated V1 endpoint, switch to Etherscan API V2 using https://docs.e
 
 **Reasoning:**
-I will check the MetaMask address balance via a public API to see if any crypto has been received. The result will be saved to memory/balance_result.txt. If funds are present I will request human verification and log profit. For now I perform the API call and store the outcome.
+Blockcypher returned 404, so I'll try the Etherscan API which is the standard free API for Ethereum balance checks. If the balance is non-zero, I'll log it as realized profit and update the revenue tracking.
