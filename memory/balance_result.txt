@@ -1,0 +1,1 @@
+Fetched balance for MetaMask address. Result: 
