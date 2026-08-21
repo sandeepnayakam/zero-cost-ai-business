@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-08-21",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-08-21T20:22:19.851218+00:00",
-    "last_used": "2026-08-21T20:22:19.755521+00:00",
-    "minute_bucket": {},
-    "requests_today": 10,
-    "total_calls": 148,
-    "total_errors": 148
+    "last_error_at": "2026-08-21T21:48:51.893989+00:00",
+    "last_used": "2026-08-21T21:48:51.775793+00:00",
+    "minute_bucket": {
+      "2026-08-21T21:48": 2
+    },
+    "requests_today": 12,
+    "total_calls": 150,
+    "total_errors": 150
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-08-21",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-08-21T21:21:00.322424+00:00",
-    "last_used": "2026-08-21T21:20:59.972615+00:00",
+    "last_error_at": "2026-08-21T21:48:36.268061+00:00",
+    "last_used": "2026-08-21T21:48:36.086160+00:00",
     "minute_bucket": {
-      "2026-08-21T21:20": 3
+      "2026-08-21T21:48": 3
     },
-    "requests_today": 90,
-    "total_calls": 1067,
-    "total_errors": 1067
+    "requests_today": 93,
+    "total_calls": 1070,
+    "total_errors": 1070
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-08-21",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-08-21T20:22:19.493644+00:00",
-    "last_used": "2026-08-21T21:21:00.323461+00:00",
+    "last_error_at": "2026-08-21T21:48:51.633591+00:00",
+    "last_used": "2026-08-21T21:48:36.269138+00:00",
     "minute_bucket": {
-      "2026-08-21T21:21": 1
+      "2026-08-21T21:48": 1
     },
-    "requests_today": 30,
-    "total_calls": 367,
-    "total_errors": 74
+    "requests_today": 31,
+    "total_calls": 368,
+    "total_errors": 75
   }
 }
