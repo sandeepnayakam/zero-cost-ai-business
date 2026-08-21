@@ -1,1 +1,1 @@
-Focus on Ankr faucet and QuickNode faucet attempts. Avoid non-productive websites.
+Focus on claiming ETH from Ankr and QuickNode faucets. DNS for faucet.ankr.com is currently unresolved; request human to sign in and claim. Also request Etherscan API key for balance checks.
