@@ -1,0 +1,1 @@
+Analyzing faucet and earn pages for claim mechanisms. Quicknode faucet may require address input and captcha. Coinbase Earn requires account and KYC for rewards. Need to check if any tasks can be completed without account creation or if testnet faucets have immediate claim options.
