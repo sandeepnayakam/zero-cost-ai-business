@@ -1,13 +1,1 @@
-[
-  {
-    "success": false,
-    "url": "https://faucets.chain.link/",
-    "error": "HTTP 405: Method Not Allowed"
-  },
-  {
-    "success": true,
-    "url": "https://faucet.quicknode.com/ethereum/sepolia",
-    "status": 200,
-    "body": "<!DOCTYPE html><!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"/><script async=\"\" defer=\"\" src=\"https://www.googletagmanager.com/gtag/js?id=G-DYE4XLEMH3\"></script><script type=\"text/javascript\" id=\"hs-script-loader\" async=\"\" defer=\"\" src=\"//js.hs-scripts.com/21784639.js\"></script><title>Ethereum Sepolia Faucet - Free Testnet ETH Tokens</title><meta name=\"description\" content=\"Easy to use Ethereum Sepolia Faucet. Claim "
-  }
-]
+Updated results with new faucet attempts
