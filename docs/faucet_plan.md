@@ -1,1 +1,1 @@
-# Faucet Examination Plan\n\n1. Examine coinfaucet.html for claim mechanisms.\n2. Examine freebitco.in.html for claim mechanisms.\n3. If any faucet offers direct claim via API, prepare to test.\n4. If wallet authentication needed, create pending request.
+Faucet examination plan: review coinfaucet.html and freebitco.in.html for claim mechanisms.
