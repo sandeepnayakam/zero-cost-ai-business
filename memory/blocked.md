@@ -1,7 +1,5 @@
 # Blocked Actions Log
 
-[2026-08-23 04:22:27 UTC] The 'pending_request' action type is invalid; writing to pending_requests.md directly is required.
-
 [2026-08-23 10:31:24 UTC] Etherscan API key still required to verify token receipt
 
 [2026-08-23 10:58:52 UTC] Etherscan API key still required for balance verification
@@ -73,6 +71,17 @@ google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://gen
 google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
 
 [2026-08-23 22:18:03 UTC] All LLM providers failed: All LLM providers failed. Errors:
+google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.0-flash is no longer available. Please update your code to use models/gemini-3.6-flash for the latest features and improvements.",
+    "status": "NOT_FOUND"
+  }
+}
+]
+google_gemini/gemini-2.0-flash-lite: 404 Client Error: Not Found for url: https:/
+
+[2026-08-23 22:47:04 UTC] All LLM providers failed: All LLM providers failed. Errors:
 google_gemini/gemini-2.0-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{
   "error": {
     "code": 404,
