@@ -1,0 +1,3 @@
+https://faucets.chain.link/
+https://faucet.etherscan.io/
+https://faucets.moralis.io/
