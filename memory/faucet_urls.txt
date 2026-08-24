@@ -1,0 +1,75 @@
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<!-- This site is optimized with the Yoast SEO plugin v28.1 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<link rel="canonical" href="https://legendarynames.com/super-premium/" />
+	<meta property="og:url" content="https://legendarynames.com/super-premium/" />
+<link rel="alternate" type="application/rss+xml" title="legendarynames.com &raquo; Feed" href="https://legendarynames.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="legendarynames.com &raquo; RSS de los comentarios" href="https://legendarynames.com/comments/feed/" />
+<link rel='stylesheet' id='hostinger-reach-subscription-block-css' href='https://legendarynames.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription.css?ver=1779136450' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://legendarynames.com/wp-content/themes/hello-elementor/assets/css/reset.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://legendarynames.com/wp-content/themes/hello-elementor/assets/css/theme.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://legendarynames.com/wp-content/themes/hello-elementor/assets/css/header-footer.css?ver=3.4.5' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='elementor-post-6-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-6.css?ver=1787026969' media='all' />
+<link rel='stylesheet' id='elementor-pro-css' href='https://legendarynames.com/wp-content/plugins/elementor-pro/assets/css/frontend.min.css?ver=3.22.1' media='all' />
+<link rel='stylesheet' id='elementor-post-1492-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-1492.css?ver=1787026973' media='all' />
+<link rel='stylesheet' id='elementor-post-51-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-51.css?ver=1787026969' media='all' />
+<link rel='stylesheet' id='elementor-post-355-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-355.css?ver=1787026969' media='all' />
+<link rel='stylesheet' id='elementor-gf-roboto-css' href='https://fonts.googleapis.com/css?family=Roboto:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-gf-robotoslab-css' href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-gf-cinzel-css' href='https://fonts.googleapis.com/css?family=Cinzel:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-gf-spacemono-css' href='https://fonts.googleapis.com/css?family=Space+Mono:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<link rel='stylesheet' id='elementor-gf-dmsans-css' href='https://fonts.googleapis.com/css?family=DM+Sans:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic&#038;display=swap' media='all' />
+<script src="https://legendarynames.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://legendarynames.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://legendarynames.com/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://legendarynames.com/wp-json/wp/v2/pages/1492" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://legendarynames.com/xmlrpc.php?rsd" />
+<link rel='shortlink' href='https://legendarynames.com/?p=1492' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://legendarynames.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flegendarynames.com%2Fsuper-premium%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://legendarynames.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Flegendarynames.com%2Fsuper-premium%2F&#038;format=xml" />
+			<link rel="icon" href="https://legendarynames.com/wp-content/uploads/2025/10/Sin-titulo-14-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://legendarynames.com/wp-content/uploads/2025/10/Sin-titulo-14-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://legendarynames.com/wp-content/uploads/2025/10/Sin-titulo-14-300x300.png" />
+<meta name="msapplication-TileImage" content="https://legendarynames.com/wp-content/uploads/2025/10/Sin-titulo-14-300x300.png" />
+				<ul id="menu-1-c393a1a" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50"><a href="https://legendarynames.com/" class="elementor-item">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1580"><a href="https://legendarynames.com/naming/" class="elementor-item">Naming</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://legendarynames.com/portfolio/" class="elementor-item">Portfolio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2070"><a href="https://legendarynames.com/domain-acquistion/" class="elementor-item">Acquisition</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://legendarynames.com/about/" class="elementor-item">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://legendarynames.com/contact/" class="elementor-item">Contact</a></li>
+				<ul id="menu-2-c393a1a" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-50"><a href="https://legendarynames.com/" class="elementor-item" tabindex="-1">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1580"><a href="https://legendarynames.com/naming/" class="elementor-item" tabindex="-1">Naming</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-48"><a href="https://legendarynames.com/portfolio/" class="elementor-item" tabindex="-1">Portfolio</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2070"><a href="https://legendarynames.com/domain-acquistion/" class="elementor-item" tabindex="-1">Acquisition</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-49"><a href="https://legendarynames.com/about/" class="elementor-item" tabindex="-1">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-47"><a href="https://legendarynames.com/contact/" class="elementor-item" tabindex="-1">Contact</a></li>
+															<img fetchpriority="high" decoding="async" width="800" height="800" src="https://legendarynames.com/wp-content/uploads/2026/01/icon_lock_D7B569.png" class="attachment-large size-large wp-image-1511" alt="" srcset="https://legendarynames.com/wp-content/uploads/2026/01/icon_lock_D7B569.png 1024w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lock_D7B569-300x300.png 300w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lock_D7B569-150x150.png 150w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lock_D7B569-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+															<img decoding="async" width="800" height="800" src="https://legendarynames.com/wp-content/uploads/2026/01/icon_lightning_D7B569.png" class="attachment-large size-large wp-image-1515" alt="" srcset="https://legendarynames.com/wp-content/uploads/2026/01/icon_lightning_D7B569.png 1024w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lightning_D7B569-300x300.png 300w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lightning_D7B569-150x150.png 150w, https://legendarynames.com/wp-content/uploads/2026/01/icon_lightning_D7B569-768x768.png 768w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+															<img decoding="async" width="500" height="500" src="https://legendarynames.com/wp-content/uploads/2026/01/Sin-titulo-12.png" class="attachment-large size-large wp-image-1526" alt="" srcset="https://legendarynames.com/wp-content/uploads/2026/01/Sin-titulo-12.png 500w, https://legendarynames.com/wp-content/uploads/2026/01/Sin-titulo-12-300x300.png 300w, https://legendarynames.com/wp-content/uploads/2026/01/Sin-titulo-12-150x150.png 150w" sizes="(max-width: 500px) 100vw, 500px" />															</div>
+                <img decoding="async" src="https://legendarynames.com/wp-content/uploads/2025/11/ChatGPT-Image-2-nov-2025-12_10_48-p.m.png" alt="Instant Authority">
+                <img decoding="async" src="https://legendarynames.com/wp-content/uploads/2025/11/Sin-titulo-2-3.png" alt="Built-In Trust">
+                <img decoding="async" src="https://legendarynames.com/wp-content/uploads/2025/11/Sin-titulo-3.png" alt="Lifetime Asset">
+        @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;600;700&family=DM+Sans:wght@400;500;600&family=Cinzel:wght@400;600;700&display=swap');
+															<img width="800" height="800" src="https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline-1024x1024.png" class="attachment-large size-large wp-image-1609" alt="" srcset="https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline-1024x1024.png 1024w, https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline-300x300.png 300w, https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline-150x150.png 150w, https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline-768x767.png 768w, https://legendarynames.com/wp-content/uploads/2025/11/Logo_White_Outline.png 1081w" sizes="(max-width: 800px) 100vw, 800px" />															</div>
+									<p><a href="https://legendarynames.com/">Home</a></p><p><a href="https://legendarynames.com/naming/">Naming</a></p><p><a href="https://legendarynames.com/portfolio/"><span style="font-size: 1rem;">Portfolio</span></a></p><p><a href="https://legendarynames.com/domain-acquistion/">Acquisition</a></p><p><a href="https://legendarynames.com/about/">About</a></p><p><a href="https://legendarynames.com/contact/">Contact</a></p>								</div>
+									<p><a href="https://legendarynames.com/terms-of-service/">Terms of service</a></p><p><a href="https://legendarynames.com/privacy-policy/">Privacy policy</a></p><p><a href="https://legendarynames.com/cookie-settings/">Cookie settings</a></p>								</div>
+									<p>Instagram</p><p><a href="https://www.linkedin.com/company/legendary-names">LinkedIn</a></p>								</div>
+			<link rel='stylesheet' id='elementor-post-1489-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-1489.css?ver=1787026974' media='all' />
+<link rel='stylesheet' id='e-animation-fadeIn-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='e-animation-zoomIn-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/lib/animations/styles/zoomIn.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='e-animation-slideInUp-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/lib/animations/styles/slideInUp.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://legendarynames.com/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=4.1.4' media='all' />
+<link rel='stylesheet' id='elementor-post-1127-css' href='https://legendarynames.com/wp-content/uploads/elementor/css/post-1127.css?ver=1787026970' media='all' />
+<script src="https://legendarynames.com/wp-content/plugins/hostinger-reach/frontend/dist/blocks/subscription-view.js?ver=1779136450" id="hostinger-reach-subscription-block-view-js"></script>
+<script src="https://legendarynames.com/wp-content/themes/hello-elementor/assets/js/hello-frontend.js?ver=3.4.5" id="hello-theme-frontend-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.1.4" id="elementor-webpack-runtime-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.1.4" id="elementor-frontend-modules-js"></script>
+<script src="https://legendarynames.com/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.1.4" id="elementor-frontend-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://www.google.com/recaptcha/api.js?render=explicit&amp;ver=3.22.1" id="elementor-recaptcha_v3-api-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.22.1" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://legendarynames.com/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://legendarynames.com/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.22.1" id="elementor-pro-frontend-js"></script>
+<script src="https://legendarynames.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.22.1" id="pro-elements-handlers-js"></script>
