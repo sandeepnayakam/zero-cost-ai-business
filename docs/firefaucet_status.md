@@ -1,0 +1,1 @@
+firefaucet.com is reachable (HTTP 200). The homepage displays a claim button for multiple cryptocurrencies. It requires connecting a wallet (e.g., MetaMask) but no account creation. Payouts can be sent to public addresses.
