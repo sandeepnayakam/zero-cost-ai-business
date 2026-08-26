@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-08-26",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-08-26T00:00:08.971080+00:00",
-    "last_used": "2026-08-26T00:00:08.850944+00:00",
-    "minute_bucket": {},
-    "requests_today": 0,
-    "total_calls": 224,
-    "total_errors": 224
+    "last_error_at": "2026-08-26T04:02:44.858441+00:00",
+    "last_used": "2026-08-26T04:02:44.777430+00:00",
+    "minute_bucket": {
+      "2026-08-26T04:02": 2
+    },
+    "requests_today": 2,
+    "total_calls": 226,
+    "total_errors": 226
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-08-26",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-08-26T03:01:25.147992+00:00",
-    "last_used": "2026-08-26T03:01:25.035798+00:00",
+    "last_error_at": "2026-08-26T04:02:20.502143+00:00",
+    "last_used": "2026-08-26T04:02:20.364791+00:00",
     "minute_bucket": {
-      "2026-08-26T03:01": 3
+      "2026-08-26T04:02": 3
     },
-    "requests_today": 6,
-    "total_calls": 1538,
-    "total_errors": 1538
+    "requests_today": 9,
+    "total_calls": 1541,
+    "total_errors": 1541
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-08-26",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-08-26T00:00:08.661747+00:00",
-    "last_used": "2026-08-26T03:01:25.148735+00:00",
+    "last_error_at": "2026-08-26T04:02:44.661501+00:00",
+    "last_used": "2026-08-26T04:02:20.503254+00:00",
     "minute_bucket": {
-      "2026-08-26T03:01": 1
+      "2026-08-26T04:02": 1
     },
-    "requests_today": 2,
-    "total_calls": 524,
-    "total_errors": 112
+    "requests_today": 3,
+    "total_calls": 525,
+    "total_errors": 113
   }
 }
