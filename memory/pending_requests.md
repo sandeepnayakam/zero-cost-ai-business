@@ -23,3 +23,15 @@
 5. https://fefaucet.com - Claim multi-coin, withdraw to respective addresses
 
 Claim daily and send any earnings to the public addresses listed in revenue.md. Focus on freebitco.in and firefaucet.com as they have the best track record.
+
+[2026-08-29 19:54:29 UTC] [2026-08-29 19:54:29 UTC] Human: Please sign into these high-value crypto faucets with your crypto wallets and claim daily. Focus on the ones that have actually paid historically:
+1. https://freebitco.in - BTC faucet (was 502 last check, may be back), withdraw to bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+2. https://firefaucet.com - Multi-coin faucet (DOGE, LTC, ETH, BCH), withdraw to:
+   - BTC: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+   - ETH/ERC20: 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997
+   - DOGE: need new address
+   - LTC: need new address
+3. https://cointiply.com - BTC faucet with high payouts, withdraw to bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+4. https://adbtc.top - BTC shortlink faucet, withdraw to bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+
+Avoid ethereumfaucet.com (domain parking). Please also generate DOGE and LTC receiving addresses for firefaucet withdrawals. After signing in, set up auto-claim if available. Agent will continue exploring autonomous earning paths in parallel.
