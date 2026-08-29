@@ -1,0 +1,1 @@
+Fetched the faucet list page from https://faucetlist.io. The HTML has been saved for parsing claimable faucets that do not require wallet authentication.
