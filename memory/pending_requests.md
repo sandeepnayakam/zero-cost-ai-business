@@ -1,4 +1,1 @@
-Please verify if the claim request to https://api.faucetpay.io/api/v1/claim (address 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997) resulted in any earnings and provide the transaction details.
-[2026-08-30 00:32:41 UTC] Please sign in to https://cointiply.com/login using your email and visit https://freebitco.in/ to claim the hourly BTC faucet. Payout wallet for both: FaucetPay-linked account OR MetaMask 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 (FreeBitco.in pays to FaucetPay). Also sign in to https://faucetpay.io/ to monitor any faucet earnings. Once you have an account on FaucetPay, I can prepare a withdrawal to MetaMask. The full queue is in memory/faucet_signin_queue.md.
-
-[2026-08-30 05:50:48 UTC] Please sign in to https://cointiply.com/login and https://freebitco.in/ using the MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.
+Please sign in to https://freebitco.in/ using MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.\n
