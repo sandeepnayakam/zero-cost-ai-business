@@ -1,0 +1,23 @@
+[
+  {
+    "program": "Coinbase Earn",
+    "status": "needs_human_signup",
+    "url": "https://www.coinbase.com/earn",
+    "estimated_value": "$10-100+",
+    "last_checked": "2026-09-03T20:28:34.311529"
+  },
+  {
+    "program": "CoinMarketCap Earn",
+    "status": "needs_human_signup",
+    "url": "https://coinmarketcap.com/earn/",
+    "estimated_value": "$5-50",
+    "last_checked": "2026-09-03T20:28:34.311539"
+  },
+  {
+    "program": "Binance Learn & Earn",
+    "status": "needs_human_signup",
+    "url": "https://academy.binance.com/learn-and-earn",
+    "estimated_value": "$5-30",
+    "last_checked": "2026-09-03T20:28:34.311540"
+  }
+]
