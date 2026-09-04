@@ -1,1 +1,1 @@
-Please sign in to https://freebitco.in/ using MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.\n
+Sign in to https://freebitco.in/ using MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.
