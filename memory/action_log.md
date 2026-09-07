@@ -19869,3 +19869,192 @@ Looking at the state, I need to examine the existing faucet scripts and fix the 
 
 I'll read the probe_faucets.py script to understand its current implementation, and also check what files exist in the scripts directory.<tool_call>subprocess<arg_key>command</arg_key><arg_value>cat scripts/probe_faucets.py 2>/dev/null || echo "NOT FOUND in scripts/" && ls scripts/ 2>/dev/null</arg_value><arg_key>timeout</arg_key><arg_value>15</arg_value></tool_call><tool_call>subprocess<arg_key>command</arg_key><arg_value>cat scripts/improved_faucet_claimer.py 2>/dev/null || echo "NOT FOUND" && cat scripts/check_balances.py 2>/dev/null || echo "NOT FOUND"</arg_value><arg_key>timeout</arg_key><arg_value>15</arg_value></tool_call>
 ---
+
+### ACTION @ 2026-09-07 14:27:08 UTC: subprocess
+Params: {"command": "ls -la scripts/ && echo '--- probe_faucets.py ---' && cat scripts/probe_faucets.py", "timeout": 15}
+Result: exit=0
+stdout: total 184
+drwxr-xr-x  2 runner runner   4096 Sep  7 14:27 .
+drwxr-xr-x 10 runner runner   4096 Sep  7 14:27 ..
+-rw-r--r--  1 runner runner      1 Sep  7 14:27 .gitkeep
+-rw-r--r--  1 runner runner   2049 Sep  7 14:27 check_balances.py
+-rw-r--r--  1 runner runner   1558 Sep  7 14:27 check_learn_earn.py
+-rw-r--r--  1 runner runner    995 Sep  7 14:27 check_ronin_balance.py
+-rw-r--r--  1 runner runner    631 Sep  7 14:27 check_wallets.py
+-rw-r--r--  1 runner runner    175 Sep  7 14:27 enhanced_faucet_claimer.py
+-rw-r--r--  1 runner runner    756 Sep  7 14:27 faucet_checker.py
+-rw-r-
+---
+
+### ACTION @ 2026-09-07 14:27:08 UTC: subprocess
+Params: {"command": "echo '--- improved_faucet_claimer.py ---' && cat scripts/improved_faucet_claimer.py && echo '--- check_balances.py ---' && cat scripts/check_balances.py", "timeout": 15}
+Result: exit=0
+stdout: --- improved_faucet_claimer.py ---
+import requests
+import time
+
+# Common crypto faucets to try
+FAUCETS = [
+    {'name': 'Ronin Faucet', 'url': 'https://faucet.roninchain.com', 'method': 'GET'},
+    {'name': 'Ethereum Faucet', 'url': 'https://ethereumfaucet.com', 'method': 'GET'},
+    {'name': 'Polygon Faucet', 'url': 'https://polygonfaucet.com', 'method': 'GET'},
+]
+
+WALLET_RONIN = '0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B'
+WALLET_METAMASK = '0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997'
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 
+---
+## Run 2026-09-07 14:27:08 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 2/2 (daily total: 2/60)
+
+Action results:
+  - subprocess: OK exit=0
+stdout: total 184
+drwxr-xr-x  2 runner runner   4096 Sep  7 14:27 .
+drwxr-xr-x 10 runner runner   4096 Sep  7 14:27 ..
+-rw-r--r--  1 runner runner      1 Sep  7 14:27 .gitkeep
+-rw-r--r--  1 runner runner   2049 Sep  7 14:27 check_balances.py
+-rw-r--r--  1 runner runner   1558 Sep  7 14:27 check_learn_earn.py
+-rw-r--r--  1 runner runner    995 Sep  7 14:27 check_ronin_balance.py
+-rw-r--r--  1 runner runner    631 Sep  7 14:27 check_wallets.py
+-rw-r--r--  1 runner runner    175 Sep  7 14:27 enhanced_faucet_claimer.py
+-rw-r--r--  1 runner runner    756 Sep  7 14:27 faucet_checker.py
+-rw-r--r--  1 runner runner   1675 Sep  7 14:27 faucet_claimer.py
+-rw-r--r--  1 runner runner    225 Sep  7 14:27 faucet_claimer.sh
+-rw-r--r--  1 runner runner     84 Sep  7 14:27 faucet_list.txt
+-rw-r--r--  1 runner runner    124 Sep  7 14:27 faucet_runner.py
+-rw-r--r--  1 runner runner    393 Sep  7 14:27 faucets.md
+-rw-r--r--  1 runner runner   1257 Sep  7 14:27 improved_faucet_claimer.py
+-rw-r--r--  1 runner runner    882 Sep  7 14:27 probe_faucets.py
+-rw-r--r--  1 runner runner    590 Sep  7 14:27 read_faucet_files.py
+-rw-r--r--  1 runner runner 117510 Sep  7 14:27 ronin_faucet.html
+--- probe_faucets.py ---
+#!/usr/bin/env python3
+import urllib.request, json, sys
+
+def probe(url, headers=None):
+    try:
+        req = urllib.request.Request(url, headers=headers or {'User-Agent': 'Mozilla/5.0'})
+        resp = urllib.request.urlopen(req, timeout=15)
+        data = resp.read().decode()
+        return resp.status, data
+    except Exception as e:
+        return None, str(e)
+
+# FaucetPay endpoints
+endpoints = [
+    ('FaucetPay info', 'https://api.faucetpay.io/api/v1/info', {}),
+    ('FaucetPay BTC list', 'https://api.faucetpay.io/api/v1/faucet/list?currency=BTC&page=1', {}),
+    ('FaucetPay claim test', 'https://api.faucetpay.io/api/v1/claim?address=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997&currency=BTC&amount=0.00001', {}),
+]
+for name, url, hdrs in endpoints:
+    status, data = probe(url, hdrs)
+    print(f'[{name}] status={status}')
+    print(f'  data={data[:500]}')
+    print()
+
+stderr: 
+  - subprocess: OK exit=0
+stdout: --- improved_faucet_claimer.py ---
+import requests
+import time
+
+# Common crypto faucets to try
+FAUCETS = [
+    {'name': 'Ronin Faucet', 'url': 'https://faucet.roninchain.com', 'method': 'GET'},
+    {'name': 'Ethereum Faucet', 'url': 'https://ethereumfaucet.com', 'method': 'GET'},
+    {'name': 'Polygon Faucet', 'url': 'https://polygonfaucet.com', 'method': 'GET'},
+]
+
+WALLET_RONIN = '0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B'
+WALLET_METAMASK = '0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997'
+
+headers = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+}
+
+def claim_from_faucet(faucet):
+    try:
+        print(f"Claiming from {faucet['name']}...")
+        response = requests.get(faucet['url'], headers=headers, timeout=30)
+        print(f"Status: {response.status_code}")
+        if response.status_code == 200:
+            # Look for claim forms/buttons
+            return response.text[:500]
+        return None
+    except Exception as e:
+        print(f"Error with {faucet['name']}: {e}")
+        return None
+
+if __name__ == '__main__':
+    for faucet in FAUCETS:
+        result = claim_from_faucet(faucet)
+        if result:
+            print(f"Success from {faucet['name']}")
+        time.sleep(2)
+--- check_balances.py ---
+import json, urllib.request, sys
+
+addresses = {
+    'MetaMask': '0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997',
+    'Ronin': '0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B',
+}
+
+rpcs = [
+    'https://eth.llamarpc.com',
+    'https://rpc.ankr.com/eth',
+    'https://cloudflare-eth.com',
+    'https://ethereum.publicnode.com',
+    'https://eth.merkle.io',
+    'https://eth-mainnet.public.blastapi.io',
+    'https://ethereum-rpc.publicnode.com',
+    'https://eth.drpc.org',
+    'https://1rpc.io/eth',
+    'https://eth-pokt.nodies.app',
+]
+
+payload = json.dumps({
+    'jsonrpc': '2.0',
+    'method': 'eth_getBalance',
+    'params': ['0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997', 'latest'],
+    'id': 1
+}).encode()
+
+for rpc in rpcs:
+    try:
+        req = urllib.request.Request(rpc, data=payload, headers={'Content-Type': 'application/json'})
+        resp = urllib.request.urlopen(req, timeout=10)
+        data = json.loads(resp.read())
+        if 'result' in data:
+            wei = int(data['result'], 16)
+            eth = wei / 1e18
+            print(f'[{rpc}] MetaMask: {eth} ETH ({wei} wei)')
+        else:
+            print(f'[{rpc}] Error: {data}')
+    except Exception as e:
+        print(f'[{rpc}] FAILED: {e}')
+
+# Also check Ronin address on Ronin RPC
+ronin_rpcs = [
+    'https://rpc.roninchain.com',
+    'https://api.roninchain.com',
+]
+ronin_payload = json.dumps({
+    'jsonrpc': '2.0',
+    'method': 'eth_getBalance',
+    'params': ['0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B', 'latest'],
+    'id': 1
+}).encode()
+for rpc in ronin_rpcs:
+    try:
+        req = urllib.request.Request(rpc, data=ronin_payload, headers={'Content-Type': 'application/json'})
+        resp = urllib.reque
+stderr: 
+
+Reasoning:
+We need to examine the existing faucet scripts to understand their current implementation and fix the FaucetPay API calls. The blocked notes indicate the FaucetPay API is returning 404 and may require POST instead of GET. Let's start by listing the scripts directory and reading the main scripts.
+---
