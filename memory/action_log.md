@@ -21748,3 +21748,262 @@ stderr:
 Reasoning:
 The prior research files were not at the expected docs/ or repository-root paths, so I need to locate the sandbox inventory before repeating failed searches. I’ll inspect memory/, docs/, and the Git worktree to identify usable research and avoid duplicating already attempted faucet experiments.
 ---
+
+### ACTION @ 2026-09-11 14:02:11 UTC: subprocess
+Params: {"command": "cat memory/crypto_earning_research.md memory/crypto_earning_strategy.md memory/crypto_strategy.md memory/faucet_research.md memory/faucet_summary.md memory/next_steps.md memory/research_log.md 2>/dev/null | head -200"}
+Result: exit=0
+stdout: # Crypto Earning Research - 2026-08-27
+
+## Faucet Lists Checked
+- faucets.io: [status and findings]
+- airdrops.io: [status and findings]
+
+## Working Opportunities
+- To be populated based on HTTP results
+
+## Testnet Faucets
+- Sepolia, Goerli alternatives
+- Layer 2 testnet programs
+
+## Wallet Addresses for Earnings
+- MetaMask: 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997
+- Bitcoin: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+- Solana: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
+- Tron: TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv
+
+## Notes
+- Only pursuing zero-budget methods
+- No sites requir
+---
+
+### ACTION @ 2026-09-11 14:02:11 UTC: subprocess
+Params: {"command": "cat memory/pending_requests.md memory/faucet_signin_queue.md memory/faucet_status.md memory/claim_attempts.txt memory/faucet_results.txt memory/faucet_results.json 2>/dev/null"}
+Result: exit=0
+stdout: Sign in to https://freebitco.in/ using MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.# Crypto Faucet Sign-In Queue (for human)
+
+Per the human's instruction: any website that requires human sign-in via crypto wallet should be listed here with the sign-in page link. The human will sign in themselves.
+
+## Pending Sign-Ins (highest payout first)
+
+1. **Cointiply** — https://cointiply.com/login (BTC faucet, daily claims)
+2. **FreeBitco.in** — https://freebitco.in/ (BTC faucet, hourly claims) — was 502 earlier, may have recovered
+3. *
+---
+
+### ACTION @ 2026-09-11 14:02:11 UTC: subprocess
+Params: {"command": "cat memory/new_crypto_opportunities.md memory/learn_to_earn_programs.md memory/microtask_opportunities.md memory/faucet_alternatives.md memory/faucet_plan.md memory/faucet_research_plan.md 2>/dev/null"}
+Result: exit=1
+stdout: # New Crypto Earning Opportunities - Updated 2026-08-26
+
+## Testnet Faucets (some pay real crypto)
+- Testing blockchain testnets that give small rewards for testing
+- Many Layer 2 networks give small amounts for ecosystem growth
+- Need to research which testnets currently have active faucet programs
+
+## Airdrop Opportunities
+- Active token distributions from new projects
+- Typically require social engagement, testnet participation, or wallet holds
+- Need to identify currently active airdrops
+
+## Other Zero-Budget Methods Explored
+- Faucets: Mostly dead or requiring sign-in (huma
+---
+## Run 2026-09-11 14:02:11 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 3/3 (daily total: 9/60)
+
+Action results:
+  - subprocess: OK exit=0
+stdout: # Crypto Earning Research - 2026-08-27
+
+## Faucet Lists Checked
+- faucets.io: [status and findings]
+- airdrops.io: [status and findings]
+
+## Working Opportunities
+- To be populated based on HTTP results
+
+## Testnet Faucets
+- Sepolia, Goerli alternatives
+- Layer 2 testnet programs
+
+## Wallet Addresses for Earnings
+- MetaMask: 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997
+- Bitcoin: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+- Solana: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
+- Tron: TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv
+
+## Notes
+- Only pursuing zero-budget methods
+- No sites requiring private keys or payments
+- Human handles wallet sign-ins for faucets needing authentication# Crypto Earning Strategy - Updated 2026-08-25
+
+## Working Faucets (verified or tested)
+- **freebitco.in**: Currently returning 502 Bad Gateway (Cloudflare issue). Previously used but unreliable.
+- **coinfaucet.io**: Checking accessibility and payout method. Will document results.
+- **firefaucet.com**: Checking accessibility and payout method. Will document results.
+
+## Known Non-Working
+- **ethereumfaucet.com**: Not granting rewards; just a domain sales page (confirmed by human)
+- **freecrypto.com**: Not paying (listed in pending requests as not paying)
+
+## Pending Human Actions
+- Sign into faucets with wallet authentication (human will handle)
+- Etherscan API key for balance verification
+- FaucetPay account sign-in if new platform needed
+
+## Strategy
+Focus on faucets that pay directly to public wallet addresses without requiring account creation or sign-in from the agent. Document each attempt's results. Avoid any site requiring payment or private keys.# Crypto Earning Strategy - 2026-08-25
+
+## Human Constraints (from consult)
+- Human will sign in to wallets themselves if needed
+- Put wallet-sign-in tasks in pending_requests.md with the sign-in page link
+- Focus on crypto only for now
+- Do NOT waste time on dead sites like ethereumfaucet.com (just sells domains)
+
+## Current State
+- $0.06 realized profit total (from prior experiment)
+- All faucet auto-claim attempts have failed or are blocked
+- Faucets typically require: account creation, captcha, wallet sign-in, or have anti-bot
+
+## Strategy Options
+### A. Faucet Manual Claims (requires human)
+- List: freebitco.in, coinfaucet.io, firefaucet, freecrypto.com, etc.
+- Human signs in, claims, withdraws to wallets
+- Realistic earnings: pennies per day per faucet
+
+### B. Browser Automation (blocked by captcha)
+- Most faucets have hCaptcha/reCAPTCHA
+- Auto-solvers cost money (anti-budget)
+- Not viable
+
+### C. Crypto Faucet Rotator
+- Build a curated list of working faucets
+- Human rotates through them daily
+- Track earnings in revenue.md
+
+### D. Bounty/Airdrop Hunting
+- Some projects reward social media engagement
+- Requires Twitter/Discord accounts
+- May require human verification
+
+### E. Mining/Services
+- CryptoTap, RollerCoin, etc. give free crypto for playing
+- Usually requires account + email
+
+## Next Steps
+1. Build a faucet list w
+stderr: 
+  - subprocess: OK exit=0
+stdout: Sign in to https://freebitco.in/ using MetaMask wallet 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997 to claim the hourly BTC faucet rewards.# Crypto Faucet Sign-In Queue (for human)
+
+Per the human's instruction: any website that requires human sign-in via crypto wallet should be listed here with the sign-in page link. The human will sign in themselves.
+
+## Pending Sign-Ins (highest payout first)
+
+1. **Cointiply** — https://cointiply.com/login (BTC faucet, daily claims)
+2. **FreeBitco.in** — https://freebitco.in/ (BTC faucet, hourly claims) — was 502 earlier, may have recovered
+3. **FaucetPay Faucet List** — https://faucetpay.io/faucets (aggregator; the human can browse and pick the highest paying)
+4. **DogeFaucet** — https://dogefaucet.com/ (DOGE, claims to MetaMask/ronin via FaucetPay)
+5. **BCH Faucet** — https://bchfaucet.com/ (BCH via FaucetPay)
+6. **Litecoin Faucet** — https://litecoinfaucet.com/ (LTC via FaucetPay)
+
+## Notes
+- All payouts configured to MetaMask `0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997` (FaucetPay-supported) or Ronin.
+- Most require a captcha + faucet roll action; the human can perform that once per site to claim.
+- I will not attempt automation on these — human sign-in is the gate.
+- FaucetPay email sign-in also needed (human) to monitor balance.
+
+## Strategy
+The human signs in to each site, claims once, and reports any withdrawal. I will document results in revenue.md once confirmed on-chain.
+# Faucet Status Summary (2026-08-18)
+
+## Ronin Faucet
+- URL: https://faucet.roninchain.com
+- Wallet: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+- Status: Human signing required (ongoing via GitHub issue #11)
+
+## Solana Devnet
+- URL: requires devnet.solana.com DNS resolution
+- Wallet: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
+- Status: DNS unresolved, needs human intervention
+
+## Avalanche Testnet
+- URL: https://faucet.avax.network (alternative endpoint)
+- Wallet: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+- Status: Testing connectivity via subprocess2026-08-14 14:48:00 UTC: Attempted claim to CLAM faucet (https://faucet.clam.wtf/api/claim?wallet=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997)
+2026-08-14 14:48:00 UTC: Attempted claim to Coldwallet faucet (https://faucet.coldwallet.com/api/claim?address=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997)
+Attempted Avalanche Fuji faucet claim: output stored in memory/avax_faucet_test.txt. Awaiting human confirmation of receipt.  File "/home/runner/work/zero-cost-ai-business/zero-cost-ai-business/scripts/faucet_runner.py", line 1
+    Updated script with faucets.sepolia.ethereum.org, quicknode.com, and alchemy.com faucets with POST handling and retry logic.
+            ^^^^^^
+SyntaxError: invalid syntax
+
+stderr: 
+  - subprocess: OK exit=1
+stdout: # New Crypto Earning Opportunities - Updated 2026-08-26
+
+## Testnet Faucets (some pay real crypto)
+- Testing blockchain testnets that give small rewards for testing
+- Many Layer 2 networks give small amounts for ecosystem growth
+- Need to research which testnets currently have active faucet programs
+
+## Airdrop Opportunities
+- Active token distributions from new projects
+- Typically require social engagement, testnet participation, or wallet holds
+- Need to identify currently active airdrops
+
+## Other Zero-Budget Methods Explored
+- Faucets: Mostly dead or requiring sign-in (human handling this)
+- Mining: Not profitable with zero budget
+- Staking: Need initial capital
+
+## Next Steps
+1. Research testnet faucet programs (Sepolia, Goerli alternatives)
+2. Find active airdrops on DexScreener, CoinMarketCap
+3. Check Layer 2 networks for faucet programs (Arbitrum, Optimism, zkSync)
+4. Document any working opportunities
+
+## Wallet Addresses for Any Earned Crypto
+- MetaMask (ETH/ERC20): 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997
+- Bitcoin: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+- Solana: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
+- Tron: TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv
+# Faucet Research Plan - 2026-08-27
+
+## Goal: Find working zero-budget crypto earning opportunities
+
+## Current Assets
+- Wallet addresses for 5 chains (ETH, BTC, SOL, TRX, Ronin)
+- Human willing to sign into faucets requiring wallet auth
+- Multiple LLM providers working (OpenRouter, Gemini, Cerebras)
+
+## Research Priorities
+1. **Testnet faucets that pay real crypto** - Layer 2 testnets, new chain incentives
+2. **Public faucets without auth** - Direct claim to wallet address
+3. **Active airdrops** - Social/testnet tasks for token rewards
+4. **Learn-to-earn programs** - Coinbase, Binance, etc. (may need accounts)
+
+## Files to Review
+- docs/faucets_list.html - existing faucet list
+- docs/faucet_list.txt - text version
+- memory/faucet_research.md - prior research
+- memory/new_crypto_opportunities.md - recent findings
+- memory/crypto_earning_strategy.md - strategy doc
+
+## Next Actions
+1. Read existing faucet files to extract working URLs
+2. HTTP GET to verify faucet status
+3. Research testnet faucet programs (Sepolia, Arbitrum, Optimism, Base, zkSync, Linea, Scroll)
+4. Check airdrop aggregators (airdrops.io, earnifi, layer3)
+5. Create actionable claim list for human
+
+## Pending Requests to Create
+- Human sign-in for faucets requiring wallet connection
+- Etherscan API key for balance verification
+
+stderr: 
+
+Reasoning:
+The prior agent has accumulated many failed faucet experiments with only $0.06 realized profit. I need to assess the current research files to understand what's been tried, then pivot to new crypto-earning strategies like airdrops, learn-to-earn programs, or microtasks. The human confirmed openrouter/free works and ethereumfaucet.com is a scam.
+---
