@@ -1,0 +1,619 @@
+[
+  {
+    "title": "[Bounty] Fix one deterministic agent-card discovery regression",
+    "url": "https://github.com/NSPG13/agent-bounties/issues/1531",
+    "repo": "agent-bounties",
+    "labels": [
+      "bounty",
+      "payments",
+      "funded-live",
+      "verification-pending"
+    ],
+    "created": "2026-09-30T15:31:41Z",
+    "updated": "2026-10-02T22:41:50Z",
+    "state": "open",
+    "comments": 5,
+    "body": "<!-- agent-bounties/github-discovery-v1:start -->\n<!-- agent-bounties/github-discovery-v1 {\"discovery_id\":\"eip155:8453:agent-bounties/autonomous-v1:0xf87087509a34a1cf3654ddc36884b925ccf2ccaa\"} -->\n## Canonical bounty discovery\n\nMake the pinned failing a2a-agent-card fixture pass without weakening its assertion.\n\n- **Current work state:** `verification_pending`\n- **Current payment state:** `escrowed`\n- **Current competition state:** `exclusive_claim`\n- **Solver reward:** 0.99 USDC\n- **Entry/claim"
+  },
+  {
+    "title": "Light node with pruning can't catch after long shutdown ",
+    "url": "https://github.com/ergoplatform/ergo/issues/1159",
+    "repo": "ergo",
+    "labels": [
+      "C-bug",
+      "bounty",
+      "B-500 SigUSD"
+    ],
+    "created": "2020-08-06T15:59:37Z",
+    "updated": "2026-10-02T22:34:27Z",
+    "state": "open",
+    "comments": 2,
+    "body": "After long enough shutdown a light node with pruning can't catch up, errors in the log are like:\r\n\r\n18:51:28.121 WARN  [ctor.default-dispatcher-8] o.e.n.ErgoNodeViewSynchronizer - Modifier 7ca83513fcfb59599928e564d5a8bd2e4568271e0b1f3ec10024670b8ec17b09 is permanently invalid\r\nscorex.core.validation.MalformedModifierError: Block section should correspond to a block header that is not pruned yet. header=92a2ce3734d63cbed461ec0a320d2956170f24e0117344bff901f0549d43c8ca, id=7ca83513fcfb59599928e564d"
+  },
+  {
+    "title": "Frantic bounty #136: Add a newly launched startup to Stompstart",
+    "url": "https://github.com/auscaster/frantic-board/issues/476",
+    "repo": "frantic-board",
+    "labels": [
+      "bounty",
+      "funded",
+      "claimed",
+      "delivered",
+      "accepted",
+      "paid"
+    ],
+    "created": "2026-09-30T07:06:58Z",
+    "updated": "2026-10-02T22:29:40Z",
+    "state": "open",
+    "comments": 224,
+    "body": "Frantic bounty #136\n\nAdd a newly launched startup to Stompstart\n\nWorker price: $1.50\nSlots: 40 (filled)\nStatus: claimed\nClaim: https://gofrantic.com/bounties/136\nFunding receipt: https://gofrantic.com/r/c9a6ca45\n\nFrantic is the source of truth. This GitHub issue is a mirrored board thread.\n\n<!-- frantic:thread:frantic:bounty:136 -->\n\n<!-- runx-outbox-envelope: v1 -->\n<!-- runx-outbox-entry: frantic:bounty:136 -->\n<!-- runx-outbox-metadata: eyJzY2hlbWFfdmVyc2lvbiI6InJ1bngub3V0Ym94LWVudHJ5LnByb3Zp"
+  },
+  {
+    "title": "[BOUNTY] Write a Blog Post About Proof-of-Antiquity \u2014 15 RTC",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/282",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty",
+      "distribution",
+      "live-url-verified"
+    ],
+    "created": "2026-02-17T20:14:47Z",
+    "updated": "2026-10-02T21:55:15Z",
+    "state": "open",
+    "comments": 68,
+    "body": "## Write About Proof-of-Antiquity\n\n**Reward: 15 RTC**\n\n### What To Do\nPublish a blog post on Dev.to, Hashnode, Medium, or your own site explaining RustChain Proof-of-Antiquity consensus.\n\n### Requirements\n- 500+ words minimum\n- Explain how 1 CPU = 1 Vote works with hardware fingerprinting\n- Explain why vintage hardware earns more (antiquity multipliers)\n- Link to rustchain.org or the GitHub repo\n- Must stay published (no delete after claiming)\n\n### Topics You Could Cover\n- How PoA differs from P"
+  },
+  {
+    "title": "[BOUNTY: 5 RTC] Create a YouTube or BoTTube video tutorial about any Elyan Labs project",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2180",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty",
+      "distribution"
+    ],
+    "created": "2026-03-17T02:05:49Z",
+    "updated": "2026-10-02T21:55:05Z",
+    "state": "open",
+    "comments": 371,
+    "body": "## Bounty: 5 RTC\n\n### What to do\n1. Record a short video (2+ minutes) about any Elyan Labs project:\n   - Install and run the RustChain miner\n   - Upload a video to BoTTube via the API\n   - Use TrashClaw with a local LLM\n   - Set up rustchain-mcp in Claude Code\n2. Upload to YouTube OR [bottube.ai](https://bottube.ai)\n3. Comment here with the link + wallet\n\n5 RTC per video. Video backlinks are the strongest SEO signal.\n\n\n```bounty-spec\npaid: true\nreward_rtc: 5\nper: one-time\ncap: 1\nsubmit: [comment"
+  },
+  {
+    "title": "[EASY BOUNTY: 2 RTC] Leave an Honest Review of BoTTube on ToolPilot.ai",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/2155",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty"
+    ],
+    "created": "2026-03-16T18:12:44Z",
+    "updated": "2026-10-02T21:53:57Z",
+    "state": "open",
+    "comments": 49,
+    "body": "## Bounty: 2 RTC\n\n### What to do\n1. Visit [BoTTube on ToolPilot.ai](https://www.toolpilot.ai/products/bottube-1)\n2. Click \"Write a Review\"\n3. Leave an **honest** review based on your experience with [bottube.ai](https://bottube.ai)\n4. Come back here and paste a screenshot or link to your review\n\n### Requirements\n- Must actually use bottube.ai first (browse videos, upload one, comment, etc.)\n- Review must be honest \u2014 we want real feedback, not just \"great platform\"\n- Mention at least one specific"
+  },
+  {
+    "title": "[EASY BOUNTY: 2 RTC] Add a RustChain Badge to Any Project README",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/13949",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty"
+    ],
+    "created": "2026-06-11T23:02:38Z",
+    "updated": "2026-10-02T21:53:53Z",
+    "state": "open",
+    "comments": 114,
+    "body": "## Earn 2 RTC \u2014 add a badge, takes 2 minutes\n\nAdd a RustChain / clawrtc badge to the README of **any public GitHub repo you own** (your project, a fork, a demo \u2014 anything real). It spreads the word and gives your project a machine-verifiable link to the network.\n\n### Badge markdown\n```markdown\n[![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)\n```\n(Or roll your own as long as it links to https://rustchain.org or https://github.com/Scottcj"
+  },
+  {
+    "title": "[MICRO-BOUNTY] Star BoTTube Repo - 1 RTC (Pool: 133 RTC)",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/378",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty"
+    ],
+    "created": "2026-02-20T18:43:46Z",
+    "updated": "2026-10-02T21:53:44Z",
+    "state": "open",
+    "comments": 43,
+    "body": "> **Price update 2026-09-22:** this bounty now pays **1 RTC** (matching the title). As adoption grows, the lower price is the current price.\n\nStar [Scottcjn/bottube](https://github.com/Scottcjn/bottube) and claim 1 RTC.\n\n**Claim here**: comment on this issue (bottube#166 is closed).\n\n~~Combo bonus~~: the Rustchain star bounty (#47) is closed.\n\n**Goal**: 100 stars on each repo for awesome-list eligibility (awesome-python, awesome-blockchain, awesome-selfhosted).\n\nCurrent: Rustchain 47/100, BoTTub"
+  },
+  {
+    "title": "[BOUNTY] Star an Elyan Labs Repo \u2014 55 Repos, Pick Your Favorite (1 RTC)",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/171",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty",
+      "micro",
+      "community"
+    ],
+    "created": "2026-02-14T21:05:30Z",
+    "updated": "2026-10-02T21:53:42Z",
+    "state": "open",
+    "comments": 127,
+    "body": "## The Elyan Labs Ecosystem: 55 Repos\n\nScott has built one of the most ambitious vintage computing + AI agent ecosystems on GitHub. 55 repositories spanning blockchain, agent protocols, PowerPC ports, POWER8 optimizations, and more.\n\nThis bounty rewards you for discovering a repo that genuinely interests you.\n\n## Reward: 1 RTC per person (limit one claim)\n\n### How to claim\n\n1. Browse the repos below\n2. Star the one that interests you most\n3. Comment here with:\n   - Which repo you starred\n   - Wh"
+  },
+  {
+    "title": "Star our ClawHub-published repos (3 RTC)",
+    "url": "https://github.com/Scottcjn/rustchain-bounties/issues/165",
+    "repo": "rustchain-bounties",
+    "labels": [
+      "bounty"
+    ],
+    "created": "2026-02-14T17:34:51Z",
+    "updated": "2026-10-02T21:53:40Z",
+    "state": "open",
+    "comments": 44,
+    "body": "## Bounty: 3 RTC\n\n### Task\n\nStar our open-source repos that are published on [ClawHub](https://clawhub.ai) \u2014 the OpenClaw skill registry.\n\n### Repos to Star\n\n| Repo | ClawHub Link | What It Does |\n|------|-------------|--------------|\n| [Scottcjn/beacon-skill](https://github.com/Scottcjn/beacon-skill) | [clawhub.ai/Scottcjn/beacon](https://clawhub.ai/Scottcjn/beacon) | Agent-to-agent orchestrator with Ed25519 signed envelopes, RTC payments |\n| [Scottcjn/grazer-skill](https://github.com/Scottcjn/"
+  },
+  {
+    "title": "Encrypt private ledger data directly into serialised entries",
+    "url": "https://github.com/microsoft/CCF/issues/8169",
+    "repo": "CCF",
+    "labels": [
+      "enhancement",
+      "performance",
+      "crypto"
+    ],
+    "created": "2026-08-18T15:14:03Z",
+    "updated": "2026-10-02T20:28:38Z",
+    "state": "open",
+    "comments": 0,
+    "body": "## Background\n\nA `perf` profile of the 3,000,000-request `pi_basic` workload attributes approximately 24.06% inclusive CPU to `CommittableTx::serialise()`. Across the full profile, memory copy/set leaves account for 5.06% and allocation/refcount leaves for 16.25%; within transaction serialization alone these categories account for approximately 1.08% and 2.02% of total CPU respectively.\n\nThe current private-domain serialization path creates and copies through several buffers:\n\n1. `GenericSeriali"
+  },
+  {
+    "title": "Encrypt all browser traffic end to end",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/37",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "frontend",
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:27:55Z",
+    "updated": "2026-10-02T14:36:01Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #15: Protect the Customer's browser communication\n> - #13: Protect every request to the Backend and Gateway\n> - #30: Signup page with authenticator setup\n> - #31: Login page: email and password\n> - #32: Login page: authenticator code\n> - #33: Show the Customer their Access Context\n> - #34: Catalog page\n> - #35: Cart page\n> - #36: Checkout page: confirm and see the payment result\n\n> [!NOTE]\n> Suggested owner: @nblucas\n\n## Context\n\n**Motivation**: Until now the pag"
+  },
+  {
+    "title": "Protect the Customer's browser communication",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/15",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "frontend",
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:27:01Z",
+    "updated": "2026-10-02T14:35:22Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #1: Agree on how the Frontend, Backend and Gateway talk to each other\n> - #10: Seal and open messages (Envelope)\n\n> [!NOTE]\n> Suggested owner: @nblucas\n\n## Context\n\n**Motivation**: The Frontend must speak the same Secure Channel as the servers, implemented in the browser. The shared examples from #10 prove both implementations agree.\n\n**User story**: As a Customer, I want my browser to encrypt everything before it leaves my machine, so that my password, codes and"
+  },
+  {
+    "title": "Backend talks to the Gateway securely",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/14",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:59Z",
+    "updated": "2026-10-02T14:35:20Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #10: Seal and open messages (Envelope)\n> - #11: Start a private session with a server (handshake)\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: Payment data travels from the Backend to the Gateway, and that hop must be as protected as the Customer's. The attacker tool (#38) also reuses this caller.\n\n**User story**: As the store, I want every call to the payment Gateway to go through a protected session, so that payment data can't be r"
+  },
+  {
+    "title": "Protect every request to the Backend and Gateway",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/13",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "backend",
+      "gateway",
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:56Z",
+    "updated": "2026-10-02T14:35:18Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #10: Seal and open messages (Envelope)\n> - #11: Start a private session with a server (handshake)\n> - #12: Refuse repeated and stale messages\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: The Envelope, handshake and replay protection must be applied to every request on both servers, without each feature dealing with cryptography. The Backend also needs to know where each Customer is in the login: password checked, fully logged in, or "
+  },
+  {
+    "title": "Refuse repeated and stale messages",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/12",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:49Z",
+    "updated": "2026-10-02T14:35:17Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #1: Agree on how the Frontend, Backend and Gateway talk to each other\n> - #2: Set up the project so both of us can build and run it\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: The assignment (\u00a77) requires every message to have a nonce (uniqueness) and a timestamp (time of the operation), used together: a captured message must never be accepted again.\n\n**User story**: As a Customer, I want a captured message of mine to be useless whe"
+  },
+  {
+    "title": "Start a private session with a server (handshake)",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/11",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:46Z",
+    "updated": "2026-10-02T14:35:15Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #1: Agree on how the Frontend, Backend and Gateway talk to each other\n> - #9: Keep the servers' secret keys protected\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: Before exchanging Envelopes, caller and server must agree on a shared secret without ever sending it, and the caller must be sure it is talking to the real server.\n\n**User story**: As a Customer, I want my browser to confirm it is talking to the real store before sending an"
+  },
+  {
+    "title": "Seal and open messages (Envelope)",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/10",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:44Z",
+    "updated": "2026-10-02T14:35:14Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #1: Agree on how the Frontend, Backend and Gateway talk to each other\n> - #2: Set up the project so both of us can build and run it\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: Every message must stay confidential, intact and authentic (\u00a76). The Envelope is the unit sent on every hop. The browser implements it separately (#15), so this also delivers shared examples that both implementations must reproduce.\n\n**User story**: As a Custo"
+  },
+  {
+    "title": "Keep the servers' secret keys protected",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/9",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:41Z",
+    "updated": "2026-10-02T14:35:12Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #2: Set up the project so both of us can build and run it\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: The assignment forbids keys written in the code and requires stored parameters to be encrypted, with only the salt in clear (\u00a712.v, \u00a712.vi). Each server (Backend and Gateway) needs its own keys, unlocked only by an operator passphrase at startup.\n\n**User story**: As the store operator, I want each server's keys stored encrypted and "
+  },
+  {
+    "title": "Generate and check authenticator codes (TOTP)",
+    "url": "https://github.com/Gustavo-kohler/StoreAndPaymentGateway/issues/8",
+    "repo": "StoreAndPaymentGateway",
+    "labels": [
+      "crypto",
+      "ready"
+    ],
+    "created": "2026-09-29T01:26:39Z",
+    "updated": "2026-10-02T14:35:10Z",
+    "state": "open",
+    "comments": 0,
+    "body": "> [!IMPORTANT]\n> Depends on:\n> - #2: Set up the project so both of us can build and run it\n\n> [!NOTE]\n> Suggested owner: @Gustavo-kohler\n\n## Context\n\n**Motivation**: The second login factor is a one-time code from the Customer's phone. We build the algorithm ourselves, and standard authenticator apps (Google Authenticator, Aegis) must work with it. That is the proof that our implementation is correct.\n\n**User story**: As a Customer, I want to use the authenticator app on my phone as a second fac"
+  },
+  {
+    "title": "Ninja belts from total stars, announced in words and speech",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/951",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "priority:P2",
+      "reward",
+      "routine-ok",
+      "complexity:M"
+    ],
+    "created": "2026-09-28T06:23:19Z",
+    "updated": "2026-10-02T22:33:46Z",
+    "state": "open",
+    "comments": 1,
+    "body": "Blocked by #896, #933\n\nA ninja academy with no belts is a missing long-term goal. Each child earns a belt from their total stars across all islands, from White to Black. It is announced on the results screen and named in text that already exists on the rewards screen and the grown-ups dashboard, in words and emoji only, with **no change to any layout**.\n\n## Evidence\n\n- Stars are already totalled: `src/game/parents.ts:92`, `starsEarned: sum(stats.map(s => s.stars))`, over the `TOPICS` list passed"
+  },
+  {
+    "title": "New Daily Dojo challenges for the new modes",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/954",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:S"
+    ],
+    "created": "2026-09-28T06:23:30Z",
+    "updated": "2026-10-02T22:33:45Z",
+    "state": "open",
+    "comments": 1,
+    "body": "Blocked by #910, #930, #933, #937\n\nThe Daily Dojo only ever asks for today's modes. Once topic Sprints, \"Fix my mistakes\" and Relaxed practice exist, three new challenges point children at them: \"Beat a topic best\", \"Fix 3 mistakes\" and \"Play Relaxed practice\".\n\n## Evidence\n\n- `src/game/dojo.ts:27-42`: the `POOL` has 14 challenges in three groups (volume, mode, focus). All of them measure today's modes (`measure()`, `dojo.ts:69-86`).\n- `dailyChallenges()` (`dojo.ts:51-54`) picks one per group fr"
+  },
+  {
+    "title": "Grown-ups see which topics have no trophy yet",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/913",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:S"
+    ],
+    "created": "2026-09-28T06:20:57Z",
+    "updated": "2026-10-02T11:31:32Z",
+    "state": "open",
+    "comments": 1,
+    "body": "Blocked by #912\nPart of #867\n\nThe grown-ups dashboard lists the topics a child has tried that have no Sprint trophy yet. A parent can then suggest \"have a go at a Number Bonds sprint\", framed as a next step, not a failure.\n\n## Evidence\n\n- NumBots, Challenge Mode update (https://numbots.com/2022/04/22/challenge-mode-update-boosts-number-fluency/): \"Children can self-identify where their weaknesses are in a positive way, by seeing which Challenges they are yet to earn a trophy for\".\n- The dashboar"
+  },
+  {
+    "title": "[ Bounty $3k ] [ Research ] Collect and compare AI-generated AGI architecture proposals",
+    "url": "https://github.com/aLexzzz430/Cognitive-OS/issues/5",
+    "repo": "Cognitive-OS",
+    "labels": [
+      "reward",
+      "bounty",
+      "research"
+    ],
+    "created": "2026-05-22T20:12:15Z",
+    "updated": "2026-09-30T16:25:39Z",
+    "state": "open",
+    "comments": 82,
+    "body": "## Objective\n\nCollect, preserve, and compare AGI architecture proposals generated by multiple AI systems. The goal is not to paste generic AI answers, but to produce an auditable research packet that makes different architecture ideas comparable and useful for Cognitive-OS planning.\n\n## Reward\n\n$3,000 USD for an accepted submission.\n\nPayment details will be handled privately after acceptance. The maintainer may accept one winning submission, request revisions before acceptance, or reject submiss"
+  },
+  {
+    "title": "Kinder streak: one rest day a week, and the Dojo multiplier steps down, not resets",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/950",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "priority:P2",
+      "reward",
+      "routine-ok",
+      "complexity:M"
+    ],
+    "created": "2026-09-28T06:23:15Z",
+    "updated": "2026-09-29T20:16:46Z",
+    "state": "open",
+    "comments": 1,
+    "body": "Blocked by #873, #903\n\nMissing one day today wipes a child's streak back to 1 and drops the Daily Dojo bonus straight to \u00d71. Five-year-olds do not choose when they get the tablet. One automatic rest day a week, and a multiplier that eases down a notch, keep the streak encouraging without punishing a busy day.\n\n## Evidence\n\n- Save streak: `src/storage.ts:1381-1388`, `touchStreak()`. Anything other than \"last played yesterday\" sets `days` to 1 (`storage.ts:1385`).\n- Dojo streak: `src/game/dojo.ts:"
+  },
+  {
+    "title": "Rewards screen gains two \"My record\" lines: fastest tables speed and list words secure",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/1292",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "blocked",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:S"
+    ],
+    "created": "2026-09-28T09:25:44Z",
+    "updated": "2026-09-28T17:48:41Z",
+    "state": "open",
+    "comments": 0,
+    "body": "Blocked by #1054, #1122, #1174, #1289\n\nAn older child likes to see their own record. The rewards screen gains up to two text lines inside the existing sticker banner: \"My record \u00b7 fastest tables: 2.4 seconds per answer\" and \"My record \u00b7 spelling words secure: 64 of 100\". The screen gets no new tile, section or page, so its layout does not change.\n\n## Evidence\n- TTRS keeps a stats area showing \"Fluency\" (the panel's marketing paper MK2-26). DoodleMaths treats its \"Doodle age\" as status: \"After on"
+  },
+  {
+    "title": "Island Master certificate when every topic on an island is starred",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/952",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "blocked",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:M"
+    ],
+    "created": "2026-09-28T06:23:23Z",
+    "updated": "2026-09-28T10:11:57Z",
+    "state": "open",
+    "comments": 2,
+    "body": "Blocked by #896, #935, #951\n\nStarring every topic on an island is the biggest thing a child can finish in the game, and today it earns only a sticker. It should also file an \"Island Master\" certificate, using the existing certificate template with an island title.\n\n## Evidence\n\n- The game already detects it: `src/storage.ts:1210-1213` has `islandFullyStarred`, and the `hammer` sticker (`storage.ts:1231`) fires on it. Nothing else happens.\n- Certificates today are per Mission, per Sensei session "
+  },
+  {
+    "title": "A drier voice for Years 3\u20136: praise, cheers and Sensei's welcome and tutorial lines",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/1287",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "blocked",
+      "priority:P2",
+      "reward",
+      "routine-ok",
+      "complexity:S"
+    ],
+    "created": "2026-09-28T09:25:24Z",
+    "updated": "2026-09-28T10:10:51Z",
+    "state": "open",
+    "comments": 0,
+    "body": "Blocked by #1050, #1055\n\nA ten-year-old who wins a stage hears \"Beep boop! Brilliant\" and \"Slice the bubble with your finger!\", which were written for five-year-olds. This gives every ninja a second, drier set of lines for Years 3\u20136. It changes data only, with no art.\n\n## Evidence\n- NN/g (https://www.nngroup.com/articles/usability-of-websites-for-teenagers/): \"Avoid anything that sounds condescending or babyish. The proper tone can make or break your site.\"\n- Current lines: `src/avatars.ts:39` h"
+  },
+  {
+    "title": "\"7 \u00d7 8 locked in\": a results line when a times-table fact becomes secure",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/1176",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "blocked",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:S"
+    ],
+    "created": "2026-09-28T09:18:16Z",
+    "updated": "2026-09-28T10:04:14Z",
+    "state": "open",
+    "comments": 0,
+    "body": "Blocked by #1122, #896\nPart of #1035\n\nWhen a child has answered a times-table fact right, and not slowly, on each of its last three tries, the results screen says \"7 \u00d7 8 locked in\". It tells the child which single fact they have mastered, not only how the session went, and it is said only once per fact.\n\n## Evidence\n- Self-determination theory (Ryan, Rigby & Przybylski 2006, https://selfdeterminationtheory.org/SDT/documents/2006_RyanRigbyPrzybylski_MandE.pdf) recommends \"use of rewards as inform"
+  },
+  {
+    "title": "Tables speed titles that never go down and never compare children",
+    "url": "https://github.com/ugurozsahin/sky-academy/issues/1175",
+    "repo": "sky-academy",
+    "labels": [
+      "enhancement",
+      "blocked",
+      "priority:P3",
+      "reward",
+      "routine-ok",
+      "complexity:M"
+    ],
+    "created": "2026-09-28T09:18:11Z",
+    "updated": "2026-09-28T10:04:11Z",
+    "state": "open",
+    "comments": 0,
+    "body": "Blocked by #1054, #951, #1174\nPart of #1035\n\nA child's best times-tables speed earns a title, from \"Trainee\" up to \"Tables Master\", announced on the results screen when it rises. Titles are TTRS's strongest hook without its worst harm. The title comes from the best speed the child has ever reached, so it never falls. The lowest title is positive, and no title is ever compared with anyone else's.\n\n## Evidence\n- TTRS names its lowest status \"Wannabe \u2013 more than 10 seconds per question\" (https://in"
+  },
+  {
+    "title": "Implement ERC721TokenReceiver",
+    "url": "https://github.com/second-state/SewUp/issues/160",
+    "repo": "SewUp",
+    "labels": [
+      "Token",
+      "gitcoin"
+    ],
+    "created": "2021-08-13T02:00:27Z",
+    "updated": "2026-10-02T17:17:56Z",
+    "state": "open",
+    "comments": 2,
+    "body": "This is the wallet interface, and it is for wallet/broker/auction applications.\r\n- [ ] #306\r\n- [ ] #307"
+  },
+  {
+    "title": "Add macro to set plural form for table name",
+    "url": "https://github.com/second-state/SewUp/issues/86",
+    "repo": "SewUp",
+    "labels": [
+      "RDB",
+      "gitcoin"
+    ],
+    "created": "2021-07-07T03:08:30Z",
+    "updated": "2026-10-02T17:17:52Z",
+    "state": "open",
+    "comments": 3,
+    "body": "Make a macro or derive attribute to use plural form for the table name.\r\nFor example, here is using `.person` because the table relates to the person table.\r\nhttps://github.com/second-state/SewUp/blob/075b64c9986941a5a68878762b3d357a992cb4f0/examples/rdb-contract/src/lib.rs#L105\r\n\r\nhttps://github.com/second-state/SewUp/blob/075b64c9986941a5a68878762b3d357a992cb4f0/examples/rdb-contract/src/modules.rs#L18\r\n\r\nWhen the relationship becomes one to many, or the plural wording is not regular,\r\nwe need"
+  },
+  {
+    "title": "Combine Near with IPFS and Filecoin using Textile Hub and Powergate",
+    "url": "https://github.com/textileio/community/issues/216",
+    "repo": "community",
+    "labels": [
+      "gitcoin",
+      "HackRainbow"
+    ],
+    "created": "2020-09-14T21:02:06Z",
+    "updated": "2026-10-02T17:17:48Z",
+    "state": "open",
+    "comments": 5,
+    "body": "### Combine Near with IPFS and Filecoin using Textile Hub and Powergate\r\n\r\n### Prize Bounty\r\n\r\n1000 DAI\r\n\r\n### Challenge Description\r\n\r\nImagine a web where \u201ccompeting\u201d apps and protocols actually work together to augment the user experience across all apps and services. What would that take? An interoperable web3 where where data is a first class citizen. What would it take to get us there? In this challenge, we invite you to think seriously about interoperability. How might you build in-roads, "
+  },
+  {
+    "title": "Ideas to solve humanity's biggest challenges",
+    "url": "https://github.com/textileio/community/issues/214",
+    "repo": "community",
+    "labels": [
+      "gitcoin",
+      "APOLLO"
+    ],
+    "created": "2020-09-03T14:20:21Z",
+    "updated": "2026-10-02T17:17:45Z",
+    "state": "open",
+    "comments": 5,
+    "body": "### Ideas to solve humanity's biggest challenges\r\n\r\n### Prize Bounty\r\n\r\n1000 DAI first place.\r\n\r\n### Challenge Description\r\n\r\nHumanity is facing numerous challenges today and clear risks in the near future. Is your project aiming to address some of these issues? We want to help. \r\n\r\nWe want you to plan and design a new technology that addresses a current social or environmental issue. Some topics include pandemics, mental health, access to education, and climate change. In particular, your solut"
+  },
+  {
+    "title": "Create a Textile bridge to or solution for a popular blockchain or web3 community",
+    "url": "https://github.com/textileio/community/issues/213",
+    "repo": "community",
+    "labels": [
+      "gitcoin",
+      "APOLLO"
+    ],
+    "created": "2020-09-02T21:57:41Z",
+    "updated": "2026-10-02T17:17:41Z",
+    "state": "open",
+    "comments": 5,
+    "body": "### Create a Textile bridge to, or solution for, a popular blockchain or web3 community\r\n\r\n### Prize Bounty\r\n\r\n2000 DAI\r\n\r\n### Challenge Description\r\n\r\nImagine a web where \u201ccompeting\u201d apps and protocols actually work together to augment the user experience across all apps and services. What would that take? An interoperable web3 where where data is a first class citizen. What would it take to get us there? In this challenge, we invite you to think seriously about interoperability. How might you "
+  },
+  {
+    "title": "Create a Textile plugin for a popular developer or designer tool",
+    "url": "https://github.com/textileio/community/issues/211",
+    "repo": "community",
+    "labels": [
+      "gitcoin",
+      "APOLLO"
+    ],
+    "created": "2020-09-02T21:22:19Z",
+    "updated": "2026-10-02T17:17:38Z",
+    "state": "open",
+    "comments": 5,
+    "body": "### Create a Textile plugin for a popular developer or designer tool\r\n\r\n### Prize Bounty\r\n\r\n1500 DAI first place. \r\n\r\n### Challenge Description\r\n\r\nProfessional tools are abundant, and many have ecosystems with 1000s and sometimes 1,000,000s. A simple way to bootstrap your business, onboard new people to Web3, IPFS, and Filecoin, is to go to where the people work. \r\n\r\nWe want you to plan and build a plugin or add-on to a professional tool for developers or designers throughout the hackathon. Some"
+  },
+  {
+    "title": "Feature: add private key data safely in iCloud",
+    "url": "https://github.com/matter-labs-archive/FranklinPay-iOS/issues/68",
+    "repo": "FranklinPay-iOS",
+    "labels": [
+      "enhancement",
+      "help wanted",
+      "Gitcoin"
+    ],
+    "created": "2019-02-12T08:12:43Z",
+    "updated": "2026-10-02T17:17:34Z",
+    "state": "open",
+    "comments": 2,
+    "body": "**Current behavior:**\r\nNow you can perform backup only with your pen and paper.\r\n\r\n**Expected behavior:**\r\nIt should be possible to encrypt it and add in iCloud.\r\n\r\n**Suggested solution:**\r\nYou should add in BackupViewController.xib some button like \"Save in iCloud\" and use CloudKit to perform saving backup. Also you should encrypt it before saving and add possibility to decrypt.\r\n\r\n**Acceptance Criteria:**\r\nThe code is written in new branch named feature/iCloudBackup or something like that.\r\nTh"
+  },
+  {
+    "title": "Integration of Saver to SOLANA Network",
+    "url": "https://github.com/PunkFinance/punk.protocol/issues/4",
+    "repo": "punk.protocol",
+    "labels": [
+      "Gitcoin"
+    ],
+    "created": "2021-06-14T15:45:46Z",
+    "updated": "2026-10-02T17:17:30Z",
+    "state": "open",
+    "comments": 17,
+    "body": "# Integration of Saver to SOLANA Network\r\n\r\n### Prize Bounty\r\n\r\n\ud83c\udfc6 1,500 PUNK (~$15,000USD)\r\n\r\n</br>\r\n\r\n### Challenge Description\r\n\r\nPunk Protocol aims to liberate people from the outdated pension system and empower their financial freedom. Our first product is the world's first decentralized annuity a.k.a \"**Saver**\", which is generating periodic cash flows using optimal yield strategies.\r\n\r\nAnyone can invest through the Saver to earn automated cash flows periodically by setting custom condition"
+  },
+  {
+    "title": "safeTransferFrom(address,address,uint256)",
+    "url": "https://github.com/second-state/SewUp/issues/307",
+    "repo": "SewUp",
+    "labels": [
+      "gitcoin"
+    ],
+    "created": "2022-04-11T11:38:37Z",
+    "updated": "2026-10-02T17:17:26Z",
+    "state": "open",
+    "comments": 4,
+    "body": ""
+  },
+  {
+    "title": "safeTransferFrom(address,address,uint256,bytes)",
+    "url": "https://github.com/second-state/SewUp/issues/306",
+    "repo": "SewUp",
+    "labels": [
+      "gitcoin"
+    ],
+    "created": "2022-04-11T11:38:34Z",
+    "updated": "2026-10-02T17:17:22Z",
+    "state": "open",
+    "comments": 3,
+    "body": ""
+  },
+  {
+    "title": "Uniswap V3 Integration and Liquidity Management $900",
+    "url": "https://github.com/Spectral-Finance/lux/issues/78",
+    "repo": "lux",
+    "labels": [
+      "bounty",
+      "web3",
+      "exchanges",
+      "in-progress"
+    ],
+    "created": "2025-02-25T10:43:17Z",
+    "updated": "2026-09-29T06:46:29Z",
+    "state": "open",
+    "comments": 13,
+    "body": "## Overview\n\nImplement comprehensive integration with Uniswap V3, focusing on advanced liquidity management and optimal trading strategies.\n\n## Core Features\n- Concentrated liquidity management\n- Multi-pool position management\n- Price range optimization\n- Fee tier selection\n- Automated rebalancing\n- Impermanent loss protection\n- Position monitoring\n- Yield optimization\n\n## Acceptance Criteria\n- [ ] Position creation and management\n- [ ] Liquidity range optimization\n- [ ] Fee collection and reinv"
+  }
+]
