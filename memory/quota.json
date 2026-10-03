@@ -3,37 +3,39 @@
     "consecutive_errors": 1,
     "date": "2026-10-03",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
-    "last_error_at": "2026-09-30T02:27:03.462836+00:00",
-    "last_used": "2026-09-30T02:27:03.374329+00:00",
-    "minute_bucket": {},
-    "requests_today": 0,
-    "total_calls": 272,
-    "total_errors": 272
+    "last_error_at": "2026-10-03T20:08:56.127127+00:00",
+    "last_used": "2026-10-03T20:08:56.039329+00:00",
+    "minute_bucket": {
+      "2026-10-03T20:08": 2
+    },
+    "requests_today": 2,
+    "total_calls": 274,
+    "total_errors": 274
   },
   "google_gemini": {
     "consecutive_errors": 1,
     "date": "2026-10-03",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-10-03T17:29:51.766506+00:00",
-    "last_used": "2026-10-03T17:29:51.600005+00:00",
+    "last_error_at": "2026-10-03T20:07:58.260485+00:00",
+    "last_used": "2026-10-03T20:07:58.098257+00:00",
     "minute_bucket": {
-      "2026-10-03T17:29": 3
+      "2026-10-03T20:07": 3
     },
-    "requests_today": 12,
-    "total_calls": 2282,
-    "total_errors": 2282
+    "requests_today": 15,
+    "total_calls": 2285,
+    "total_errors": 2285
   },
   "openrouter": {
-    "consecutive_errors": 0,
+    "consecutive_errors": 1,
     "date": "2026-10-03",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-09-30T02:27:03.185538+00:00",
-    "last_used": "2026-10-03T17:29:51.767419+00:00",
+    "last_error_at": "2026-10-03T20:08:55.814734+00:00",
+    "last_used": "2026-10-03T20:07:58.261625+00:00",
     "minute_bucket": {
-      "2026-10-03T17:29": 1
+      "2026-10-03T20:07": 1
     },
-    "requests_today": 4,
-    "total_calls": 772,
-    "total_errors": 136
+    "requests_today": 5,
+    "total_calls": 773,
+    "total_errors": 137
   }
 }
