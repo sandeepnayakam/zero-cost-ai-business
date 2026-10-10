@@ -1,3 +1,8 @@
-#!/bin/bash
-curl -X POST https://faucets.chain.link/claim --data 'address=0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B'
-curl -X POST https://faucet.quicknode.com/claim --data 'address=0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997'
+#!/bin/sh
+ADDRESS="0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B"
+while IFS= read -r url; do
+  if [ -n "$url" ]; then
+    echo "Attempting claim from $url for address $ADDRESS"
+    curl -s "$url?address=$ADDRESS" | head -n 20
+  fi
+done < faucet_list.txt
