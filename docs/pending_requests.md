@@ -1,1 +1,1 @@
-Please sign in to https://faucet.ankr.com/ethereum and claim 0.01 ETH to address 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997. Once funds are received, log the realized profit in revenue.md.
+Sign in to https://autofaucet.org using the Ronin public address 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B and claim the crypto reward.
