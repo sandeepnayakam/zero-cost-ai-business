@@ -6920,3 +6920,151 @@ stderr: python3: can't open file '/home/runner/work/zero-cost-ai-business/zero-c
 Reasoning:
 I will first check the Ronin balance to see if any faucet rewards can be claimed, then ask the human to sign into autofaucet.org using the Ronin address, and finally run the faucet_claimer script to attempt claiming any available crypto rewards.
 ---
+
+### ACTION @ 2026-10-15 17:16:34 UTC: subprocess
+Params: {"command": "ls -la scripts/ && echo '---' && ls -la docs/", "timeout": 15}
+Result: exit=0
+stdout: total 212
+drwxr-xr-x  2 runner runner   4096 Oct 15 17:16 .
+drwxr-xr-x 10 runner runner   4096 Oct 15 17:16 ..
+-rw-r--r--  1 runner runner      1 Oct 15 17:16 .gitkeep
+-rw-r--r--  1 runner runner   2049 Oct 15 17:16 check_balances.py
+-rw-r--r--  1 runner runner   1558 Oct 15 17:16 check_learn_earn.py
+-rw-r--r--  1 runner runner    995 Oct 15 17:16 check_ronin_balance.py
+-rw-r--r--  1 runner runner    631 Oct 15 17:16 check_wallets.py
+-rw-r--r--  1 runner runner    175 Oct 15 17:16 enhanced_faucet_claimer.py
+-rw-r--r--  1 runner runner   2439 Oct 15 17:16 explore_faucets.py
+-rw-r
+---
+
+### ACTION @ 2026-10-15 17:16:34 UTC: subprocess
+Params: {"command": "cat docs/research_log.md", "timeout": 15}
+Result: exit=0
+stdout: === REAL CRYPTO EARNING STRATEGY ===
+
+PRIORITY 1: Learn-to-Earn Programs (Real Crypto)
+- Coinbase Earn: Watch videos, take quizzes, earn $1-50 per course in real crypto
+- CoinMarketCap Earn: Similar model, various tokens
+- Binance Academy: Learn & Earn campaigns
+- Revolut Learn: Crypto courses with rewards
+- Cake DeFi Learn: DeFi education rewards
+
+PRIORITY 2: Referral/Affiliate Programs
+- Coinbase: $10 BTC per referral (both parties)
+- Binance: Up to 40% commission on trading fees
+- Kraken: $10 per referral
+- Crypto.com: $25 per referral
+- Ledger: 10% affiliate commission
+
+PRIO
+---
+
+### ACTION @ 2026-10-15 17:16:34 UTC: subprocess
+Params: {"command": "cat docs/faucet_status.md", "timeout": 15}
+Result: exit=0
+stdout: 
+stderr: 
+---
+## Run 2026-10-15 17:16:34 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 3/3 (daily total: 10/60)
+
+Action results:
+  - subprocess: OK exit=0
+stdout: total 212
+drwxr-xr-x  2 runner runner   4096 Oct 15 17:16 .
+drwxr-xr-x 10 runner runner   4096 Oct 15 17:16 ..
+-rw-r--r--  1 runner runner      1 Oct 15 17:16 .gitkeep
+-rw-r--r--  1 runner runner   2049 Oct 15 17:16 check_balances.py
+-rw-r--r--  1 runner runner   1558 Oct 15 17:16 check_learn_earn.py
+-rw-r--r--  1 runner runner    995 Oct 15 17:16 check_ronin_balance.py
+-rw-r--r--  1 runner runner    631 Oct 15 17:16 check_wallets.py
+-rw-r--r--  1 runner runner    175 Oct 15 17:16 enhanced_faucet_claimer.py
+-rw-r--r--  1 runner runner   2439 Oct 15 17:16 explore_faucets.py
+-rw-r--r--  1 runner runner    812 Oct 15 17:16 faucet_checker.py
+-rw-r--r--  1 runner runner   1675 Oct 15 17:16 faucet_claimer.py
+-rw-r--r--  1 runner runner    251 Oct 15 17:16 faucet_claimer.sh
+-rw-r--r--  1 runner runner     84 Oct 15 17:16 faucet_list.txt
+-rw-r--r--  1 runner runner    608 Oct 15 17:16 faucet_runner.py
+-rw-r--r--  1 runner runner   1084 Oct 15 17:16 faucet_scanner.py
+-rw-r--r--  1 runner runner   1145 Oct 15 17:16 faucet_tester.py
+-rw-r--r--  1 runner runner    393 Oct 15 17:16 faucets.md
+-rw-r--r--  1 runner runner   3935 Oct 15 17:16 github_bounty_scanner_v2.py
+-rw-r--r--  1 runner runner   1219 Oct 15 17:16 github_crypto_bounty_scanner.py
+-rw-r--r--  1 runner runner   1257 Oct 15 17:16 improved_faucet_claimer.py
+-rw-r--r--  1 runner runner    882 Oct 15 17:16 probe_faucets.py
+-rw-r--r--  1 runner runner    590 Oct 15 17:16 read_faucet_files.py
+-rw-r--r--  1 runner runner    574 Oct 15 17:16 read_research.py
+-rw-r--r--  1 runner runner 117510 Oct 15 17:16 ronin_faucet.html
+-rw-r--r--  1 runner runner   2354 Oct 15 17:16 test_faucets.py
+---
+total 416
+drwxr-xr-x  2 runner runner   4096 Oct 15 17:16 .
+drwxr-xr-x 10 runner runner   4096 Oct 15 17:16 ..
+-rw-r--r--  1 runner runner      1 Oct 15 17:16 .gitkeep
+-rw-r--r--  1 runner runner 316997 Oct 15 17:16 coinfaucet.html
+-rw-r--r--  1 runner runner   1643 Oct 15 17:16 crypto-earning-guide.md
+-rw-r--r--  1 runner runner    566 Oct 15 17:16 faucet_list.txt
+-rw-r--r--  1 runner runner     91 Oct 15 17:16 faucet_plan.md
+-rw-r--r--  1 runner runner    390 Oct 15 17:16 faucet_results.md
+-rw-r--r--  1 runner runner      0 Oct 15 17:16 faucet_status.md
+-rw-r--r--  1 runner runner    569 Oct 15 17:16 faucets.md
+-rw-r--r--  1 runner runner      0 Oct 15 17:16 faucets_list.html
+-rw-r--r--  1 runner runner    222 Oct 15 17:16 firefaucet_status.md
+-rw-r--r--  1 runner runner     16 Oct 15 17:16 freebitco.in.html
+-rw-r--r--  1 runner runner  35849 Oct 15 17:16 github_bounty_results.json
+-rw-r--r--  1 runner runner    638 Oct 15 17:16 learn_earn_status.json
+-rw-r--r--  1 runner runner   1516 Oct 15 17:16 learn_to_earn_programs.md
+-rw-r--r--  1 runner runner     35 Oct 15 17:16 microtask_opportunities.md
+-rw-r--r--  1 runner runner    658 Oct 15 17:16 next_steps.md
+-rw-r--r--  1 runner runner    136 Oct 15 17:16 pending_requests.md
+-rw-r--r--  1 runner runner   1373 Oct 15 17:16 research_log.md
+-rw-r--r--  1 runner runner 
+stderr: 
+  - subprocess: OK exit=0
+stdout: === REAL CRYPTO EARNING STRATEGY ===
+
+PRIORITY 1: Learn-to-Earn Programs (Real Crypto)
+- Coinbase Earn: Watch videos, take quizzes, earn $1-50 per course in real crypto
+- CoinMarketCap Earn: Similar model, various tokens
+- Binance Academy: Learn & Earn campaigns
+- Revolut Learn: Crypto courses with rewards
+- Cake DeFi Learn: DeFi education rewards
+
+PRIORITY 2: Referral/Affiliate Programs
+- Coinbase: $10 BTC per referral (both parties)
+- Binance: Up to 40% commission on trading fees
+- Kraken: $10 per referral
+- Crypto.com: $25 per referral
+- Ledger: 10% affiliate commission
+
+PRIORITY 3: Airdrop Farming (Zero Cost)
+- LayerZero, zkSync, Linea, Scroll, Base - interact with testnets/mainnets
+- Use existing wallets (Ronin, MetaMask, Solana, Bitcoin, Tron)
+- Track via Galxe, Layer3, QuestN
+
+PRIORITY 4: Bug Bounties / Security Audits
+- Immunefi, HackerOne - requires skills but high rewards
+
+PRIORITY 5: Content/Community Rewards
+- Publish0x, Hive, LeoFinance - crypto for writing
+- Discord/Telegram community roles with token rewards
+
+NEXT STEPS:
+1. Research each learn-to-earn program eligibility
+2. Create tracking spreadsheet for campaigns
+3. Build simple referral landing page on GitHub Pages
+4. Request human to sign up for Coinbase/CoinMarketCap via referral links
+5. Automate airdrop task tracking
+
+BLOCKED: Ethereumfaucet.com is a scam (domain upsell), avoid.
+
+stderr: 
+  - subprocess: OK exit=0
+stdout: 
+stderr: 
+
+Reasoning:
+Previous subprocess calls failed because they used bare filenames without the `scripts/` prefix. I need to first survey the existing scripts and research docs to understand what's been tried and find promising crypto-earning leads. The human explicitly said to focus on crypto and stop working on ethereumfaucet.com. Let me check the existing research and scripts to find working opportunities.
+---
