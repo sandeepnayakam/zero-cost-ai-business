@@ -1,0 +1,48 @@
+{
+  "forms": [],
+  "inputs": [
+    "<input type=\"hidden\" name=\"_token\" value=\"\">",
+    "<input type=\"email\" name=\"email\" class=\"form-control form-control-sm\"\n                    placeholder=\"Email Address\" tabindex=\"1\" value=\"\">",
+    "<input type=\"password\" name=\"password\" class=\"form-control form-control-sm\"\n                    placeholder=\"Password\" tabindex=\"2\">",
+    "<input type=\"hidden\" name=\"_token\" value=\"\">",
+    "<input type=\"text\" name=\"username\" class=\"form-control form-control-sm\"\n                placeholder=\"Username\" tabindex=\"4\" value=\"\">",
+    "<input type=\"email\" name=\"email\" class=\"form-control form-control-sm\"\n                placeholder=\"Email Address\" tabindex=\"1\" value=\"\">",
+    "<input type=\"password\" name=\"password\" class=\"form-control form-control-sm\"\n                placeholder=\"Password\" tabindex=\"2\">",
+    "<input type=\"password\" name=\"confirm-password\" class=\"form-control form-control-sm\"\n                placeholder=\"Confirm Password\" tabindex=\"3\">",
+    "<input type=\"hidden\" name=\"_token\" value=\"\">",
+    "<input type=\"email\" name=\"email\" class=\"form-control\" placeholder=\"Email Address\"\n                tabindex=\"1\" value=\"\">",
+    "<input type=\"password\" name=\"new-password\" class=\"form-control\"\n                placeholder=\"Password\" tabindex=\"2\">",
+    "<input type=\"password\" name=\"confirm-new-password\" class=\"form-control\"\n                placeholder=\"Confirm Password\" tabindex=\"3\">"
+  ],
+  "buttons": [
+    "<button class=\"btn btn-primary text-dark rounded-xl px-3\" tabindex=\"4\" id=\"login-btn\">\n                            Log In\n                        </button>",
+    "<button class=\"btn btn-primary text-dark rounded-xl px-3\" tabindex=\"5\"\n                        id=\"register-btn\">Register</button>",
+    "<button class=\"btn btn-primary text-dark rounded-xl px-3\" tabindex=\"4\"\n                        id=\"forgot-btn\">Reset</button>"
+  ],
+  "js_endpoints": [
+    "/api/register",
+    "/api/forgot-password",
+    "/api/login"
+  ],
+  "csrf_tokens": [
+    " content=",
+    ": $(",
+    "]",
+    ": $(",
+    "]",
+    ": $(",
+    "]",
+    " value=",
+    " value=",
+    " value="
+  ],
+  "wallet_fields": [],
+  "faucet_links": [
+    "https://x.com/cryptosfaucets",
+    "/#faucets",
+    "https://t.me/freecryptosfaucets",
+    "https://coinfaucet.io/faucet",
+    "https://coinfaucet.io",
+    "/img/favicon/coinfaucet.svg"
+  ]
+}
