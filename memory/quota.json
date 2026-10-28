@@ -14,26 +14,26 @@
     "consecutive_errors": 1,
     "date": "2026-10-28",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-10-28T19:43:21.443065+00:00",
-    "last_used": "2026-10-28T19:43:21.234709+00:00",
+    "last_error_at": "2026-10-28T23:35:54.283017+00:00",
+    "last_used": "2026-10-28T23:35:54.137694+00:00",
     "minute_bucket": {
-      "2026-10-28T19:43": 3
+      "2026-10-28T23:35": 3
     },
-    "requests_today": 12,
-    "total_calls": 2690,
-    "total_errors": 2690
+    "requests_today": 15,
+    "total_calls": 2693,
+    "total_errors": 2693
   },
   "openrouter": {
     "consecutive_errors": 0,
     "date": "2026-10-28",
     "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
     "last_error_at": "2026-10-28T14:16:36.782244+00:00",
-    "last_used": "2026-10-28T19:43:21.444470+00:00",
+    "last_used": "2026-10-28T23:35:54.284091+00:00",
     "minute_bucket": {
-      "2026-10-28T19:43": 1
+      "2026-10-28T23:35": 1
     },
-    "requests_today": 4,
-    "total_calls": 908,
+    "requests_today": 5,
+    "total_calls": 909,
     "total_errors": 163
   }
 }
