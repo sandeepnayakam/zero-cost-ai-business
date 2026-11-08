@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sandeepnayakam.github.io/zero-cost-ai-business/sitemap.xml

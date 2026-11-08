@@ -1,26 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RustChain Earning Guide</title>
-  <style>
-    body { font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; padding: 20px; }
-    .bounty { margin: 20px 0; padding: 15px; background: #f5f5f5; border-radius: 5px; }
-    .wallet { margin-top: 10px; font-size: 0.9em; color: #666; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Donations & Tips</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0f0f23; color: #e0e0e0; min-height: 100vh; display: flex; flex-direction: column; align-items: center; padding: 2rem; }
+        .container { max-width: 600px; width: 100%; }
+        h1 { color: #00d4aa; margin-bottom: 0.5rem; text-align: center; }
+        .subtitle { text-align: center; color: #888; margin-bottom: 2rem; }
+        .wallet-card { background: #1a1a3a; border: 1px solid #2a2a4a; border-radius: 12px; padding: 1.5rem; margin-bottom: 1rem; transition: transform 0.2s, box-shadow 0.2s; }
+        .wallet-card:hover { transform: translateY(-2px); box-shadow: 0 8px 24px rgba(0, 212, 170, 0.15); }
+        .wallet-name { color: #00d4aa; font-weight: 600; font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .wallet-address { font-family: 'Monaco', 'Menlo', monospace; font-size: 0.85rem; color: #ccc; word-break: break-all; background: #0f0f23; padding: 0.75rem; border-radius: 8px; border: 1px solid #2a2a4a; margin-bottom: 0.75rem; }
+        .copy-btn { background: #00d4aa; color: #0f0f23; border: none; padding: 0.5rem 1rem; border-radius: 6px; font-weight: 600; cursor: pointer; transition: background 0.2s; }
+        .copy-btn:hover { background: #00e8bb; }
+        .copy-btn.copied { background: #4ade80; }
+        .qr-placeholder { width: 120px; height: 120px; background: #0f0f23; border: 1px dashed #2a2a4a; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #555; font-size: 0.75rem; margin: 0 auto 0.75rem; }
+        .network-badge { display: inline-block; background: #2a2a4a; color: #888; padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.7rem; margin-left: 0.5rem; }
+        footer { margin-top: 3rem; text-align: center; color: #555; font-size: 0.85rem; }
+        .tip-note { background: #1a1a3a; border: 1px solid #00d4aa; border-radius: 12px; padding: 1.5rem; margin-top: 2rem; text-align: center; }
+        .tip-note p { color: #aaa; margin-bottom: 0.5rem; }
+        .tip-note strong { color: #00d4aa; }
+    </style>
 </head>
 <body>
-  <h1>RustChain (RTC) Earning Opportunities</h1>
-  <p>Updated: 2026-10-04</p>
-  <div class="bounty">
-    <h3>GitHub Bounties - rustchain-bounties repo</h3>
-    <p>Look for open issues with RTC rewards for blog posts, videos, and code contributions.</p>
-    <p>Rewards: 15 RTC for blog post, 5 RTC for YouTube video</p>
-  </div>
-  <div class="wallet">
-    <strong>Ronin wallet:</strong> 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B<br>
-    <strong>MetaMask wallet:</strong> 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997<br>
-  </div>
+    <div class="container">
+        <h1>💰 Crypto Tips & Donations</h1>
+        <p class="subtitle">Support this zero-cost AI business experiment</p>
+        
+        <div class="wallet-card">
+            <div class="wallet-name">Ronin <span class="network-badge">RONIN</span></div>
+            <div class="wallet-address" id="ronin-addr">0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B</div>
+            <button class="copy-btn" onclick="copyAddress('ronin-addr')">Copy Address</button>
+        </div>
+        
+        <div class="wallet-card">
+            <div class="wallet-name">MetaMask / Ethereum <span class="network-badge">ETH</span></div>
+            <div class="wallet-address" id="metamask-addr">0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997</div>
+            <button class="copy-btn" onclick="copyAddress('metamask-addr')">Copy Address</button>
+        </div>
+        
+        <div class="wallet-card">
+            <div class="wallet-name">Bitcoin <span class="network-badge">BTC</span></div>
+            <div class="wallet-address" id="btc-addr">bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z</div>
+            <button class="copy-btn" onclick="copyAddress('btc-addr')">Copy Address</button>
+        </div>
+        
+        <div class="wallet-card">
+            <div class="wallet-name">Solana <span class="network-badge">SOL</span></div>
+            <div class="wallet-address" id="sol-addr">2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM</div>
+            <button class="copy-btn" onclick="copyAddress('sol-addr')">Copy Address</button>
+        </div>
+        
+        <div class="wallet-card">
+            <div class="wallet-name">Tron <span class="network-badge">TRX</span></div>
+            <div class="wallet-address" id="tron-addr">TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv</div>
+            <button class="copy-btn" onclick="copyAddress('tron-addr')">Copy Address</button>
+        </div>
+        
+        <div class="tip-note">
+            <p>All addresses are <strong>public only</strong> — no private keys ever requested or stored.</p>
+            <p>Every donation helps fund the next autonomous experiment cycle.</p>
+        </div>
+        
+        <footer>
+            <p>Zero-Cost AI Business Experiment • <a href="https://github.com/sandeepnayakam/zero-cost-ai-business" style="color: #00d4aa;">GitHub</a></p>
+        </footer>
+    </div>
+    
+    <script>
+        function copyAddress(elementId) {
+            const addr = document.getElementById(elementId).textContent;
+            navigator.clipboard.writeText(addr).then(() => {
+                const btn = event.target;
+                btn.textContent = 'Copied!';
+                btn.classList.add('copied');
+                setTimeout(() => {
+                    btn.textContent = 'Copy Address';
+                    btn.classList.remove('copied');
+                }, 2000);
+            });
+        }
+    </script>
 </body>
 </html>
