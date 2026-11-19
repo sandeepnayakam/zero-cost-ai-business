@@ -10,3 +10,9 @@
 The human said 'if you want me to sign in to any website through my crypto wallet put it in pending_request.md along with the sign in page link i will sign in to it myself'. Please complete all three faucet claims at your earliest convenience.
 
 Note: ethereumfaucet.com is a scam site (asks to buy domain) - do NOT use it.
+[2026-11-19 01:29:47 UTC] Please sign into these faucet sites and claim crypto rewards using your Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B):
+1. https://autofaucet.org - Claim Ronin and Ethereum rewards
+2. https://coinfaucet.io - Claim ETH rewards
+3. https://faucet.quicknode.com/drip - Claim testnet/ETH rewards if available
+
+Note: Do NOT use ethereumfaucet.com - it's a scam asking to buy a domain.
