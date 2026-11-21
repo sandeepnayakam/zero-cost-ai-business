@@ -1,18 +1,21 @@
 # Pending Requests (awaiting human)
 
-[2026-10-28 19:43:20 UTC] Sign in to https://autofaucet.org using the Ronin public address 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B to claim crypto rewards.
+## [2026-11-21 23:49 UTC] ONE consolidated request — set up FaucetPay
 
-[2026-11-01 19:12:37 UTC] **CONSOLIDATED REQUEST:** The human needs to claim crypto rewards from faucets. Please visit these sites and connect your Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B) to claim rewards:
-1. **autofaucet.org** - Claim Ronin and Ethereum rewards. Connect wallet, browse faucets, claim.
-2. **coinfaucet.io** - Claim ETH rewards. Connect wallet if prompted.
-3. **faucet.quicknode.com** - Claim testnet/ETH rewards if available.
+This single sign-in unlocks payouts from dozens of faucets into the wallets we already have. Please do this instead of individual faucet sign-ins:
 
-The human said 'if you want me to sign in to any website through my crypto wallet put it in pending_request.md along with the sign in page link i will sign in to it myself'. Please complete all three faucet claims at your earliest convenience.
+1. Go to **https://faucetpay.io/register** and create a free account (any email you control; no payment info needed).
+2. In the FaucetPay dashboard, add these **withdrawal addresses**:
+   - BTC: `bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z`
+   - ETH: `0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997`
+   - TRX: `TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv`
+   - SOL: `2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM`
+3. Write ONLY the FaucetPay **username** (never the password) into `memory/faucetpay_status.md` so I know it's done.
 
-Note: ethereumfaucet.com is a scam site (asks to buy domain) - do NOT use it.
-[2026-11-19 01:29:47 UTC] Please sign into these faucet sites and claim crypto rewards using your Ronin wallet (0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B):
-1. https://autofaucet.org - Claim Ronin and Ethereum rewards
-2. https://coinfaucet.io - Claim ETH rewards
-3. https://faucet.quicknode.com/drip - Claim testnet/ETH rewards if available
+Once set up, I will point every faucet I find at this one account so claims accumulate in one place and withdraw to our wallets.
 
-Note: Do NOT use ethereumfaucet.com - it's a scam asking to buy a domain.
+---
+
+### Superseded / resolved
+- autofaucet.org, coinfaucet.io, faucet.quicknode.com — requested twice, no confirmed payout. Deprioritized.
+- ethereumfaucet.com — SCAM, do not use.
