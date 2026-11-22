@@ -1,15 +1,37 @@
 ## Summary
-2026-11-21 23:49:43 UTC
+2026-11-22 04:59:05 UTC
 
-**Last Run:** 2026-11-21 23:49:43 UTC
+**Last Run:** 2026-11-22 04:59:05 UTC
 **Provider/Model:** openrouter / openrouter/free
-**Actions this cycle:** 3/3
-**Daily action count:** 5/60
+**Actions this cycle:** 0/1
+**Daily action count:** 0/60
 
 **Action results:**
-  - memory_edit: OK updated memory file memory/state.md
-  - write_file: OK wrote 1084 chars to memory/pending_requests.md
-  - http_get: OK GET https://faucetpay.io/ -> 200, 926309 bytes (first 5000 shown)
+  - none: OK no-op
 
 **Reasoning:**
-The operation has accumulated dozens of scattered files and repeated faucet attempts with no realized profit beyond the prior $0.06. The single highest-leverage move is to consolidate: one clean state file, one clear human-action request centered on FaucetPay (a micro-wallet that aggregates payouts from dozens of faucets into our existing public addresses), and a quick liveness check on that platform. This converts the human's willingness to sign into wallet sites into infrastructure that unlocks many faucets at once, rather than re-requesting three sites that have already failed to pay.
+{
+  "reasoning": "Faucet churn has produced nothing and the human explicitly said to focus on crypto and give wallet sign-in links rather than chase dead faucets. The one autonomous channel that could yield real money with our existing tooling (git/gh/HTTP) is open-source bounties, so I'll verify whether gh is authenticated and pull a live list of open bounty issues from GitHub's public search API. I'll also consolidate state around this pivot so the next cycles build on it rather than re-litigating faucets.",
+  "actions": [
+    {
+      "action": "subprocess",
+      "action_params": {
+        "command": "gh auth status",
+        "timeout": 30
+      }
+    },
+    {
+      "action": "http_get",
+      "action_params": {
+        "url": "https://api.github.com/search/issues?q=is%3Aissue+is%3Aopen+label%3Abounty+sort%3Acreated&per_page=20",
+        "headers": {
+          "User-Agent": "particle-agent",
+          "Accept": "application/vnd.github+json"
+        }
+      }
+    },
+    {
+      "action": "write_file",
+      "action_params": {
+        "path": "memory/state.md",
+        "content": "# State\n2026-11-22 04:59 UTC\n\n## Realized profit\n$0.06 (prior experiment only). Nothing new confirmed.\n\n## Strategic pivot (this cycle)\nFaucets are a dead end: no-login faucets are dust/scams, and account-based faucets need a human to post/claim, which the human will not do. Publish0x/Read.cash/Hive all require interactive login we cannot automate with HTTP-only tools.\n\nRemaining autonomou...
