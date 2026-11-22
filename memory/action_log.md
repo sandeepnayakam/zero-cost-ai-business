@@ -14750,3 +14750,67 @@ Reasoning:
         "path": "memory/state.md",
         "content": "# State\n2026-11-22 04:59 UTC\n\n## Realized profit\n$0.06 (prior experiment only). Nothing new confirmed.\n\n## Strategic pivot (this cycle)\nFaucets are a dead end: no-login faucets are dust/scams, and account-based faucets need a human to post/claim, which the human will not do. Publish0x/Read.cash/Hive all require interactive login we cannot automate with HTTP-only tools.\n\nRemaining autonomous channels:\n1. **Open-source bounties** (GitHub issues labeled `bounty`, Algora, Gitcoin). We have git + gh + code-writing ability. This is the only path where our actual capability (writing code) maps to real money without a login.\n2. **FaucetPay aggregation** — still pending human action; keep as low-EV background track, do not
 ---
+
+### ACTION @ 2026-11-22 20:21:45 UTC: subprocess
+Params: {"command": "gh auth status", "timeout": 30}
+Result: exit=0
+stdout: github.com
+  ✓ Logged in to github.com account sandeepnayakam (GH_TOKEN)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: github_pat_**********************************************************************************
+
+stderr: 
+---
+
+### ACTION @ 2026-11-22 20:21:45 UTC: http_get
+Params: {"url": "https://api.github.com/search/issues?q=is%3Aissue+is%3Aopen+label%3Abounty+sort%3Acreated&per_page=20", "headers": {"User-Agent": "particle-agent", "Accept": "application/vnd.github+json"}}
+Result: GET https://api.github.com/search/issues?q=is%3Aissue+is%3Aopen+label%3Abounty+sort%3Acreated&per_page=20 -> 200, 66449 bytes (first 5000 shown)
+---
+
+### ACTION @ 2026-11-22 20:21:45 UTC: write_file
+Params: {"path": "memory/state.md", "content": "# State\n2026-11-22 20:21 UTC\n\n## Realized profit\n$0.06 (prior experiment only). Nothing new confirmed.\n\n## Strategy\nHuman directive: focus on crypto; open-source bounties are the main autonomous channel. Human will sign into crypto wallet sites via pending_requests.md when needed. FaucetPay setup already requested (pending). ethereumfaucet.com is a scam — deprioritized.\n\n## This cycle\nRecon: check gh auth status and query GitHub public search API
+  [main]
+  before: 37 lines, 1740 chars
+  after:  18 lines, 871 chars
+  --- new content (first 18 lines) ---
+  | # State
+  | 2026-11-22 20:21 UTC
+  | 
+  | ## Realized profit
+  | $0.06 (prior experiment only). Nothing new confirmed.
+  | 
+  | ## Strategy
+  | Human directive: focus on crypto; open-source bounties are the main autonomous channel. Human will sign into crypto wallet sites via pending_requests.md when needed. FaucetPay setup already requested 
+  | 
+  | ## This cycle
+  | Recon: check gh auth status and query GitHub public search API for open bounty-labeled issues. Results will determine whether to start solving bounty issues or pivot to another crypto-earning channel.
+  | 
+  | ## Crypto wallets (public only)
+  | Ronin: 0xAa4E76e5Be5334c0f2Fe0716C42B2FC61D4c150B
+  | MetaMask: 0xd6DFE6b54bF3dBC919Fde57009452fe6bbb0D997
+  | Bitcoin: bc1qh3areygq598ntxht0yp5yv87ej7g6aqvw8fl4z
+  | Solana: 2emXSLoziaB5wdC8y48ovbu41agh9PzR5ro8o7kRDUvM
+  | Tron: TJxkyJW57Tb8qmvvv5rCh3L2FYssRvWFEv
+Result: wrote 871 chars to memory/state.md
+---
+## Run 2026-11-22 20:21:45 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 3/3 (daily total: 3/60)
+
+Action results:
+  - subprocess: OK exit=0
+stdout: github.com
+  ✓ Logged in to github.com account sandeepnayakam (GH_TOKEN)
+  - Active account: true
+  - Git operations protocol: https
+  - Token: github_pat_**********************************************************************************
+
+stderr: 
+  - http_get: OK GET https://api.github.com/search/issues?q=is%3Aissue+is%3Aopen+label%3Abounty+sort%3Acreated&per_page=20 -> 200, 66449 bytes (first 5000 shown)
+  - write_file: OK wrote 871 chars to memory/state.md
+
+Reasoning:
+The human has directed me to focus on crypto and treat open-source bounties as the primary autonomous channel, with the human handling wallet site sign-ins via pending_requests.md. The previous cycle planned to check gh auth and query the GitHub bounty API but executed zero actions, so I need to actually run that reconnaissance now. I will verify GitHub CLI authentication, pull live bounty-labeled issues from GitHub's public search API, and record a baseline state so subsequent cycles build on results rather than re-litigating.
+---
