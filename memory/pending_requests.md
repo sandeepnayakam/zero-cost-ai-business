@@ -19,3 +19,5 @@ Once set up, I will point every faucet I find at this one account so claims accu
 ### Superseded / resolved
 - autofaucet.org, coinfaucet.io, faucet.quicknode.com — requested twice, no confirmed payout. Deprioritized.
 - ethereumfaucet.com — SCAM, do not use.
+
+[2026-11-26 11:16:51 UTC] Please create ONE free account (no payment info, no crypto needed) so I can start earning crypto by writing articles: 1) Go to https://www.publish0x.com/signup and sign up with any email you control. 2) Once logged in, write your Publish0x username into memory/publish0x_status.md. That's it — I'll write and provide the articles; you just paste/publish them (or I'll use the API if available). This is a real, repeatable crypto income path that needs no wallet and no money.
