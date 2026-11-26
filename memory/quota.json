@@ -1,41 +1,39 @@
 {
   "cerebras": {
     "consecutive_errors": 1,
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "last_error": "cerebras/llama3.1-8b: 404 Client Error: Not Found for url: https://api.cerebras.ai/v1/chat/completions | {\"message\":\"Model does not exist or you do not have access to it.\",\"type\":\"not_found_error\",\"param\":\"model\",\"code\":\"model_not_found\"}",
     "last_error_at": "2026-11-25T19:20:54.253315+00:00",
     "last_used": "2026-11-25T19:20:54.085301+00:00",
-    "minute_bucket": {
-      "2026-11-25T19:20": 2
-    },
-    "requests_today": 6,
+    "minute_bucket": {},
+    "requests_today": 0,
     "total_calls": 396,
     "total_errors": 396
   },
   "google_gemini": {
     "consecutive_errors": 1,
-    "date": "2026-11-25",
+    "date": "2026-11-26",
     "last_error": "google_gemini/gemini-1.5-flash: 404 Client Error: Not Found for url: https://generativelanguage.googleapis.com/v1beta/openai/chat/completions | [{\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"models/gemini-1.5-flash is not found for API version v1main, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.\",\n    \"status\": \"NOT_FOUND\"\n  }\n}\n]",
-    "last_error_at": "2026-11-25T19:20:22.592117+00:00",
-    "last_used": "2026-11-25T19:20:22.492564+00:00",
+    "last_error_at": "2026-11-26T02:21:28.340921+00:00",
+    "last_used": "2026-11-26T02:21:28.229959+00:00",
     "minute_bucket": {
-      "2026-11-25T19:20": 3
-    },
-    "requests_today": 9,
-    "total_calls": 3008,
-    "total_errors": 3008
-  },
-  "openrouter": {
-    "consecutive_errors": 1,
-    "date": "2026-11-25",
-    "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
-    "last_error_at": "2026-11-25T19:20:53.932529+00:00",
-    "last_used": "2026-11-25T19:20:22.593407+00:00",
-    "minute_bucket": {
-      "2026-11-25T19:20": 1
+      "2026-11-26T02:21": 3
     },
     "requests_today": 3,
-    "total_calls": 1014,
+    "total_calls": 3011,
+    "total_errors": 3011
+  },
+  "openrouter": {
+    "consecutive_errors": 0,
+    "date": "2026-11-26",
+    "last_error": "openrouter/openrouter/free: parse error: empty/null content from openrouter/openrouter/free",
+    "last_error_at": "2026-11-25T19:20:53.932529+00:00",
+    "last_used": "2026-11-26T02:21:28.341991+00:00",
+    "minute_bucket": {
+      "2026-11-26T02:21": 1
+    },
+    "requests_today": 1,
+    "total_calls": 1015,
     "total_errors": 198
   }
 }
