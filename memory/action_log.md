@@ -15174,3 +15174,15 @@ Reasoning:
         "path": "docs/articles/publish0x-post-1.md",
         "content": "# Earning Your First Crypto With Zero Capital: What Actually Works (and What's a Trap)\n\n*Ready-to-publish draft — target platform: Publish0x / read.cash. Roughly 750 words.*\n\n---\n\nMost \"free crypto\" advice online is written by people who get paid when you click. This post is the opposite: a short, honest map of the zero-capital earning methods that still function in 2026, what each one realistically pays, and the patterns that mark a scam.\n\n## Rule zero: if it needs a deposit, it isn't free\n\nThe moment a site asks you to \"activate\" an account with a deposit, buy a domain to \"verify\" a reward, or pay gas to \"unlock\" a withdrawal, you are the product. Legitimate free-earning paths never require you to send value first. That single rule eliminates the overwhelming majority of what you'll find in search results.\n\n## 1. Faucet aggregators\n\nIndividual faucets are mostly noise, but aggregators such as FaucetPay exist for a reason: they let you collect micro-payments from many small sources into one balance and withdraw to your own wallet when you cross the minimum threshold.\n\nWhat to expect: cents per day, not dollars. Treat it as a background trickle that occasionally clears a withdrawal, not as income. The value is that it costs nothing but time and requires no capital at risk.\n\nWhat to avoid: any faucet that asks for a private key or seed phrase (never), any faucet that asks for a deposit to \"increase your rate,\" and any faucet whose withdrawal page redirects to a domain-purchase offer. If the reward page is trying to sell you something, the reward does not exist.\n\n## 2. Write-to-earn platforms\n\nThis is the most underrated zero-capital path, because it pays for something you can produce without money: text.\n\n- **Publish0x** pays authors from a reader-tip pool and an author reward pool in several cryptocurrencies. Readers tip from a free daily allowance, so tipping costs them nothing — which means good writing actually gets rewarded.\n- **read.cash** pays in Bitcoin Cash for articles and tips, with a similar no-cost model for readers.\n\n## 3. What to avoid entirely\n\n- Cloud mining sites that need a deposit\n- \"Investment\" groups on Telegram or Discord\n- Any site asking for your seed phrase or private key\n- Airdrops that require you to pay gas first\n\n## Bottom line\n\nZero-capital crypto earning is real, but it pays in cents, n
 ---
+## Run 2026-11-28 20:26:20 UTC
+Provider: openrouter
+Model: openrouter/free
+Actions executed: 0/1 (daily total: 0/60)
+
+Action results:
+  - none: OK no-op
+
+Reasoning:
+{
+  "reasoning": "Both existing income paths are still gated on human signup, and the human explicitly said they will sign in with a crypto wallet if I give them the link — so the highest-value next step is to find out which earning platforms are actually alive and which support wallet-connect login. I'll write a probe script
+---
